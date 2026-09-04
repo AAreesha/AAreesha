@@ -112,33 +112,85 @@ You know.
 
 ---
 
-## `04` — MEME DEPARTMENT
+## `04` — THE CURRENT SITUATION
 
 <div align="center">
 
-### when the model gets 99% accuracy
-
-<img src="https://media.giphy.com/media/26ufdipQqU2lhNA4g/giphy.gif" width="420"/>
+### keeping up with AI
 
 <br>
 
-`me:` this looks suspicious
+<img src="https://gist.githubusercontent.com/mihaicodes/4fdb393c2db5b3fd7f287fa00f039d7a/raw/this-is-fine.gif" width="500"/>
+
+<br><br>
+
+**new model dropped.**
+
+**new framework dropped.**
+
+**new agent protocol dropped.**
+
+**new benchmark dropped.**
+
+**new paradigm dropped.**
+
+<br>
+
+`me:` *I have read the documentation.*
+
+<br>
+
+`AI:` **there's new documentation.**
 
 <br><br>
 
 ---
 
-### when the code worked yesterday
-
-<img src="https://media.giphy.com/media/3o7TKoWXm3okO1kgHC/giphy.gif" width="420"/>
+### meanwhile, in AI research
 
 <br>
 
-**"what changed?"**
+**Monday:** finally understands RAG
+
+**Tuesday:** agents everywhere
+
+**Wednesday:** apparently agents need memory now
+
+**Thursday:** new model with 400B parameters
+
+**Friday:** *"you should probably learn MCP"*
+
+**Saturday:** another paper
+
+**Sunday:** `pip install existential-crisis`
+
+<br><br>
+
+---
+
+### the roadmap
+
+```text
+learn AI
+   ↓
+build something
+   ↓
+new model drops
+   ↓
+rewrite everything
+   ↓
+new framework drops
+   ↓
+learn framework
+   ↓
+new framework replaces framework
+   ↓
+pretend this was the plan
+```
 
 <br>
 
-*the answer is always: nothing.*
+**Anyway. Back to building.**
 
 </div>
 
