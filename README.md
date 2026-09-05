@@ -1,3 +1,4 @@
+
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=venom&height=220&color=0:090909,45:211019,75:4A1F31,100:8E3F5F&text=AREESHA&fontColor=F5F1F2&fontSize=58&fontAlignY=45&animation=twinkling" width="100%"/>
 <br>
@@ -94,19 +95,19 @@ You know.
 ### the roadmap
 ```text
 learn AI
-↓
+   ↓
 build something
-↓
+   ↓
 new model drops
-↓
+   ↓
 rewrite everything
-↓
+   ↓
 new framework drops
-↓
+   ↓
 learn framework
-↓
+   ↓
 new framework replaces framework
-↓
+   ↓
 pretend this was the plan
 ```
 <br>
