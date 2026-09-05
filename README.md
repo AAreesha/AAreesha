@@ -354,7 +354,7 @@ Apparently I did other things besides staring at terminals.
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/AAreesha/AAreesha/output/github-contribution-grid-snake-dark.svg" width="95%"/>
+<img src="https://raw.githubusercontent.com/AAreesha/AAreesha/gh-pages/github-contribution-grid-snake-dark.svg" width="95%"/>
 
 </div>
 
