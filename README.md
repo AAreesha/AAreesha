@@ -1,27 +1,25 @@
-
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&height=240&color=0:090909,35:211019,65:4A1F31,100:8E3F5F&text=AREESHA&fontColor=F5F1F2&fontSize=62&fontAlignY=45&animation=twinkling&stroke=8E3F5F&strokeWidth=1" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&height=260&color=0:050505,30:170D12,60:3B1726,100:8E3F5F&text=AREESHA&fontColor=F5F1F2&fontSize=64&fontAlignY=45&animation=twinkling&stroke=8E3F5F&strokeWidth=1" width="100%"/>
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Courier+Prime&size=17&duration=2200&pause=900&color=D7D0D3&center=true&vCenter=true&width=760&lines=AI%2FML+ENGINEER;I+make+computers+do+things.;occasionally+I+make+them+regret+it.;ML+%2B+LLMs+%2B+software.;currently+debugging+something+that+worked+yesterday.;the+model+is+probably+not+the+problem.;...probably." />
+<img src="https://readme-typing-svg.demolab.com?font=Courier+Prime&size=17&duration=2400&pause=800&color=D7D0D3&center=true&vCenter=true&width=760&lines=AI%2FML+ENGINEER;I+make+computers+do+things.;occasionally+I+make+them+regret+it.;LLMs+%2B+RAG+%2B+AGENTS;currently+debugging+something+that+worked+yesterday.;the+model+is+probably+not+the+problem.;...probably." />
 
 <br><br>
 
-<a href="https://github.com/AAreesha">
-<img src="https://komarev.com/ghpvc/?username=AAreesha&label=PROFILE%20VISITORS&color=8E3F5F&style=flat-square"/>
-</a>
+<code>AI / ML</code>
+  <code>LLMs</code>
+  <code>RAG</code>
+  <code>AGENTS</code>
+  <code>NLP</code>
+  <code>ML SYSTEMS</code>
 
- 
+<br><br>
 
-<a href="https://github.com/AAreesha?tab=followers">
+<img src="https://komarev.com/ghpvc/?username=AAreesha&label=OBSERVERS&color=8E3F5F&style=flat-square"/>
+&nbsp;
 <img src="https://img.shields.io/github/followers/AAreesha?label=FOLLOWERS&style=flat-square&color=4A1F31&labelColor=090909"/>
-</a>
-
-<br><br>
-
-`AI / ML`　`LLMs`　`NLP`　`RAG`　`AGENTS`　`ML SYSTEMS`
 
 </div>
 
@@ -29,74 +27,65 @@
 
 <div align="center">
 
-> **I build intelligent systems.**
->
-> *The intelligence part is still under investigation.*
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=2200&pause=700&color=8E3F5F&center=true&vCenter=true&width=650&lines=%3E+booting+profile...;%3E+loading+identity...;%3E+loading+AI+stack...;%3E+loading+questionable+decisions...;%3E+system+online." />
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=3500&pause=1200&color=8E3F5F&center=true&vCenter=true&width=650&lines=%3E+initializing+neural+network...;%3E+loading+way+too+many+papers...;%3E+checking+if+the+code+still+works...;%3E+it+doesn't.;%3E+restarting..." />
+### `> whoami`
+
+**Areesha — AI/ML Engineer**
+
+I build intelligent systems.
+
+*The intelligence part is still under investigation.*
 
 </div>
 
 ---
 
-## `01` — ABOUT
+## `01` — SYSTEM
 
-I'm **Areesha**, an AI/ML engineer with a Computer Science background.
-
-I build things involving **machine learning, NLP, LLMs, retrieval systems, agents and software**.
-
-I enjoy taking complicated technical problems, making them slightly more complicated, and then eventually making them work.
-
-<details>
-<summary><b>what I'm currently interested in</b></summary>
-
-<br>
-
-* LLM applications
-* RAG & hybrid retrieval
-* Embeddings & semantic search
-* AI agents
-* NLP
-* Recommendation & ranking
-* Reinforcement learning
-* ML systems
-* Model evaluation
-* AI infrastructure
-
-</details>
+```text
+╭────────────────────────────────────────────────────────────╮
+│                                                            │
+│  USER        areesha                                       │
+│  ROLE        AI / ML ENGINEER                              │
+│  SPECIALTY   LLMs · RAG · NLP · AGENTS                    │
+│  ENV         Linux · Python · caffeine                     │
+│                                                            │
+│  CURRENT PROCESS                                            │
+│  ├─ building AI systems                                    │
+│  ├─ breaking AI systems                                    │
+│  ├─ figuring out why                                      │
+│  └─ pretending this was intentional                        │
+│                                                            │
+│  STATUS      ONLINE                                        │
+│  SANITY      UNKNOWN                                       │
+│                                                            │
+╰────────────────────────────────────────────────────────────╯
+```
 
 <details>
-<summary><b>what I'm probably doing right now</b></summary>
+<summary><b>what is currently running</b></summary>
 
 <br>
 
 ```text
-┌─────────────────────────────────────────┐
-│                                         │
-│   reading documentation                 │
-│          ↓                              │
-│   trying something                      │
-│          ↓                              │
-│   "this should work"                    │
-│          ↓                              │
-│   error                                 │
-│          ↓                              │
-│   staring at terminal                  │
-│          ↓                              │
-│   fixing completely unrelated thing     │
-│          ↓                              │
-│   somehow it works                      │
-│                                         │
-└─────────────────────────────────────────┘
+LLMs             ████████████████████  ACTIVE
+RAG              ███████████████████░  ACTIVE
+AGENTS           ██████████████████░░  ACTIVE
+NLP              ███████████████████░  ACTIVE
+EVALUATION       ███████████████░░░░  EXPLORING
+ML SYSTEMS       ████████████████░░░  ACTIVE
+RL               ███████████░░░░░░░░  LOADING
+SLEEP            ██░░░░░░░░░░░░░░░░░  FAILED
 ```
 
 </details>
 
 ---
 
-## `02` — DAMAGE REPORT
+## `02` — THE STACK
 
 <div align="center">
 
@@ -104,82 +93,132 @@ I enjoy taking complicated technical problems, making them slightly more complic
 
 <br><br>
 
+<code>Python</code>
+ ·  <code>C++</code>
+ ·  <code>C</code>
+ ·  <code>JavaScript</code>
+ ·  <code>TypeScript</code>
+ ·  <code>SQL</code>
+
+<br><br>
+
+<code>PyTorch</code>
+ ·  <code>TensorFlow</code>
+ ·  <code>scikit-learn</code>
+ ·  <code>spaCy</code>
+ ·  <code>SentenceTransformers</code>
+
+<br><br>
+
+<code>FAISS</code>
+ ·  <code>BM25</code>
+ ·  <code>LangChain</code>
+ ·  <code>RAG</code>
+ ·  <code>Agents</code>
+
+<br><br>
+
+<code>FastAPI</code>
+ ·  <code>React</code>
+ ·  <code>Vite</code>
+ ·  <code>Tailwind</code>
+ ·  <code>Linux</code>
+ ·  <code>Docker</code>
+
 </div>
 
-```text
-LANGUAGES
-Python · C++ · C · JavaScript · TypeScript · SQL
+---
 
-MACHINE LEARNING
-PyTorch · TensorFlow · scikit-learn
+## `03` — AI.EXE
 
-NLP
-spaCy · SentenceTransformers · embeddings · semantic search
+<div align="center">
 
-LLM / AI
-LangChain · RAG · FAISS · BM25 · agents · evaluation
-
-BACKEND
-FastAPI · Flask
-
-FRONTEND
-React · Vite · Tailwind
-
-SYSTEMS
-Linux · RISC-V · Verilog
-```
-
-<details>
-<summary><b>🧠 current AI stack</b></summary>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=1700&pause=500&color=8E3F5F&center=true&vCenter=true&width=700&lines=%5B+SYSTEM+%5D+receiving+query...;%5B+AGENT+%5D+planning...;%5B+RAG+%5D+retrieving...;%5B+MODEL+%5D+thinking...;%5B+MODEL+%5D+thinking+some+more...;%5B+SYSTEM+%5D+please+stop+thinking." />
 
 <br>
 
 ```text
-                ┌──────────────┐
-                │     USER     │
-                └──────┬───────┘
-                       │
-                       ▼
-              ┌─────────────────┐
-              │   APPLICATION   │
-              └────────┬────────┘
-                       │
-              ┌────────▼────────┐
-              │      AGENT      │
-              └────────┬────────┘
-                       │
-             ┌─────────▼─────────┐
-             │  RETRIEVAL / RAG  │
-             └─────────┬─────────┘
-                       │
-             ┌─────────▼─────────┐
-             │ EMBEDDINGS / NLP  │
-             └─────────┬─────────┘
-                       │
-             ┌─────────▼─────────┐
-             │       MODEL       │
-             └───────────────────┘
+                         ┌──────────────┐
+                         │     USER     │
+                         └──────┬───────┘
+                                │
+                                ▼
+                    ┌─────────────────────┐
+                    │     APPLICATION     │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │        AGENT        │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │    RETRIEVAL / RAG  │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │    EMBEDDINGS/NLP   │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │        MODEL        │
+                    └─────────────────────┘
+```
+
+</div>
+
+<details>
+<summary><b>the actual thought process</b></summary>
+
+<br>
+
+```text
+idea
+ ↓
+build
+ ↓
+"this should work"
+ ↓
+error
+ ↓
+google
+ ↓
+documentation
+ ↓
+random GitHub issue from 2021
+ ↓
+fix
+ ↓
+another error
+ ↓
+fix that
+ ↓
+somehow production works
 ```
 
 </details>
 
 ---
 
-## `03` — CURRENTLY LOADING...
+## `04` — CURRENTLY LOADING...
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=1800&pause=700&color=F5F1F2&center=true&vCenter=true&width=700&lines=%5B███████████████████░%5D+LLMs;%5B██████████████████░░%5D+RAG;%5B█████████████████░░░%5D+Agents;%5B████████████████░░░░%5D+Evaluation;%5B███████████████░░░░░%5D+ML+Systems;%5B████████████░░░░░░░%5D+Sleep" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=1800&pause=600&color=F5F1F2&center=true&vCenter=true&width=720&lines=%5B███████████████████░%5D+LLMs;%5B██████████████████░░%5D+RAG;%5B█████████████████░░░%5D+Agents;%5B████████████████░░░░%5D+Evaluation;%5B███████████████░░░░░%5D+ML+Systems;%5B████████████░░░░░░░%5D+Reinforcement+Learning;%5B██░░░░░░░░░░░░░░░░░%5D+Sleep" />
 
 </div>
 
 <br>
 
-| Area                   | Status          |
+| PROCESS                | STATE           |
 | ---------------------- | --------------- |
 | LLM applications       | `ACTIVE`        |
 | Retrieval systems      | `ACTIVE`        |
 | AI agents              | `ACTIVE`        |
+| NLP                    | `ACTIVE`        |
 | Model evaluation       | `EXPLORING`     |
 | ML engineering         | `ACTIVE`        |
 | Reinforcement learning | `LOADING...`    |
@@ -187,107 +226,84 @@ Linux · RISC-V · Verilog
 
 ---
 
-## `04` — THE AI SITUATION
+## `05` — THE AI SITUATION
 
 <div align="center">
 
-<img src="https://gist.githubusercontent.com/mihaicodes/4fdb393c2db5b3fd7f287fa00f039d7a/raw/this-is-fine.gif" width="480"/>
+<img src="https://gist.githubusercontent.com/mihaicodes/4fdb393c2db5b3fd7f287fa00f039d7a/raw/this-is-fine.gif" width="420"/>
 
 <br><br>
 
-**new model dropped.**
-
-**new framework dropped.**
-
-**new agent protocol dropped.**
-
-**new benchmark dropped.**
-
-**new paradigm dropped.**
-
-<br>
-
-`me:` *I have read the documentation.*
-
-`AI:` **there's new documentation.**
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=1900&pause=600&color=8E3F5F&center=true&vCenter=true&width=720&lines=new+model+dropped.;new+framework+dropped.;new+agent+protocol+dropped.;new+benchmark+dropped.;new+paper+dropped.;new+documentation+dropped.;I+have+read+the+documentation.;there+is+new+documentation." />
 
 </div>
 
 <details>
-<summary><b>📡 meanwhile in AI</b></summary>
+<summary><b>weekly AI incident report</b></summary>
 
 <br>
 
 ```text
 MONDAY
-finally understands RAG
+learns new framework
 
 TUESDAY
-agents everywhere
+framework deprecated
 
 WEDNESDAY
-apparently agents need memory now
+discovers new agent protocol
 
 THURSDAY
-new model with 400B parameters
+model gets 400B parameters
 
 FRIDAY
-"you should probably learn MCP"
+someone says "just fine-tune it"
 
 SATURDAY
-another paper
+reads 47 papers
 
 SUNDAY
-pip install existential-crisis
+questions everything
 ```
 
 </details>
 
 ---
 
-## `05` — THE ROADMAP
+## `06` — LIVE DIAGNOSTICS
 
 <div align="center">
 
+<img src="https://readme-typing-svg.demolab.com?font=Courier+Prime&size=14&duration=2100&pause=700&color=8E3F5F&center=true&vCenter=true&width=680&lines=%3E+running+diagnostics...;%3E+checking+memory...+OK;%3E+checking+models...+OK;%3E+checking+dependencies...+questionable;%3E+checking+sleep...+FAILED;%3E+checking+motivation...+OK;%3E+diagnostics+complete." />
+
+<br><br>
+
 ```text
-                 ┌──────────────┐
-                 │   LEARN AI   │
-                 └──────┬───────┘
-                        ↓
-                 ┌──────────────┐
-                 │ BUILD THINGS │
-                 └──────┬───────┘
-                        ↓
-                 ┌──────────────┐
-                 │ MODEL DROPS  │
-                 └──────┬───────┘
-                        ↓
-                 ┌──────────────┐
-                 │REWRITE THINGS│
-                 └──────┬───────┘
-                        ↓
-                 ┌──────────────┐
-                 │FRAMEWORK DROP│
-                 └──────┬───────┘
-                        ↓
-                 ┌──────────────┐
-                 │ LEARN AGAIN  │
-                 └──────┬───────┘
-                        ↓
-                 ┌──────────────┐
-                 │ PRETEND PLAN │
-                 └──────────────┘
+╭────────────────────────────────────────────╮
+│                                            │
+│  SYSTEM            STATUS                  │
+│  ────────────────────────────────────────  │
+│  Brain             ████████████░░  87%    │
+│  Curiosity         ██████████████  100%   │
+│  Code              ███████████░░░  82%    │
+│  Patience          ██████░░░░░░░░  41%    │
+│  Sleep             ██░░░░░░░░░░░░  14%    │
+│  Bugs              ██████████████  100%   │
+│                                            │
+│  OVERALL STATUS: SOMEHOW FUNCTIONAL        │
+│                                            │
+╰────────────────────────────────────────────╯
 ```
 
 </div>
 
 ---
 
-## `06` — GITHUB ACTIVITY
+## `07` — GITHUB ACTIVITY
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=AAreesha&bg_color=00000000&color=9B9296&line=8E3F5F&point=F5F1F2&area=true&hide_border=true&custom_title=CONTRIBUTION%20ACTIVITY" width="95%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=AAreesha&bg_color=00000000&color=9B9296&line=8E3F5F&point=F5F1F2&area=true&hide_border=true&custom_title=ACTIVITY%20LOG" width="96%"/>
 
 <br><br>
 
@@ -303,19 +319,22 @@ pip install existential-crisis
 
 ---
 
-## `07` — LORE
+## `08` — LORE
 
 <details>
-<summary><b>📜 unlock character backstory</b></summary>
+<summary><b>unlock character backstory</b></summary>
 
 <br>
 
-**BS Computer Science — Habib University**
+```text
+BS COMPUTER SCIENCE
+Habib University
 
 HU TOPS Scholar
 Dean's Honor List
 President's List
 First Runner-Up — IFTP Texas A&M University 2024
+```
 
 Apparently I did other things besides staring at terminals.
 
@@ -323,44 +342,53 @@ Apparently I did other things besides staring at terminals.
 
 ---
 
-## `08` — SYSTEM STATUS
+## `09` — CONTRIBUTION TRACE
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/AAreesha/AAreesha/gh-pages/github-contribution-grid-snake-dark.svg" width="96%"/>
+
+<br><br>
+
+<img src="https://readme-typing-svg.demolab.com?font=Courier+Prime&size=12&duration=2600&pause=800&color=666666&center=true&vCenter=true&width=600&lines=tracking+activity...;signal+detected.;contributions+moving.;system+still+online.;for+now." />
+
+</div>
+
+---
+
+## `10` — TERMINAL
 
 <div align="center">
 
 ```text
-╭────────────────────────────────────────────╮
-│                                            │
-│  SYSTEM            STATUS                  │
-│  ────────────────────────────────────────  │
-│  Brain             ████████████░░  87%    │
-│  Curiosity         ██████████████  100%   │
-│  Code              ███████████░░░  82%    │
-│  Patience          ██████░░░░░░░░  41%    │
-│  Sleep             ██░░░░░░░░░░░░  14%    │
-│  Bugs              ██████████████  100%   │
-│                                            │
-╰────────────────────────────────────────────╯
+╭──────────────────────────────────────────────────╮
+│  areesha@github:~$                               │
+│                                                  │
+│  $ status                                        │
+│  > building                                      │
+│                                                  │
+│  $ sleep                                          │
+│  > command not found                             │
+│                                                  │
+│  $ sanity                                        │
+│  > 404                                           │
+│                                                  │
+│  $ git status                                    │
+│  > changes everywhere                            │
+│                                                  │
+│  $ ship                                          │
+│  > [Y/n]                                         │
+│                                                  │
+╰──────────────────────────────────────────────────╯
 ```
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Courier+Prime&size=14&duration=2500&pause=1000&color=8E3F5F&center=true&vCenter=true&width=650&lines=STATUS%3A+BUILDING;STATUS%3A+BREAKING;STATUS%3A+FIXING;STATUS%3A+REPEATING;STATUS%3A+SHIP+IT" />
+<img src="https://readme-typing-svg.demolab.com?font=Courier+Prime&size=13&duration=3000&pause=900&color=8E3F5F&center=true&vCenter=true&width=650&lines=connection+established...;signal+stable...;system+still+online...;for+now." />
 
 </div>
 
 ---
-
-## `09` — CONTRIBUTION SNAKE
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/AAreesha/AAreesha/gh-pages/github-contribution-grid-snake-dark.svg" width="95%"/>
-
-</div>
-
----
-
-## `10` — CONTACT / SIGNAL
 
 <div align="center">
 
@@ -383,21 +411,17 @@ Apparently I did other things besides staring at terminals.
 <br><br>
 
 <sub>
+
 if it works, don't touch it.
+
 <br>
+
 <strong>I touched it.</strong>
+
 </sub>
 
 <br><br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Courier+Prime&size=12&duration=3000&pause=1000&color=666666&center=true&vCenter=true&width=500&lines=connection+established...;probably.;system+still+online.;for+now." />
-
-</div>
-
----
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=150&section=footer&color=0:8E3F5F,40:4A1F31,75:211019,100:090909&animation=twinkling" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=140&section=footer&color=0:8E3F5F,40:4A1F31,75:211019,100:090909&animation=twinkling" width="100%"/>
 
 </div>
