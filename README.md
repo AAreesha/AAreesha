@@ -21,7 +21,7 @@
 
 <br>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
+<img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYiIHZpZXdCb3g9IjAgMCAxMjAwIDYiPgo8ZGVmcz4KPGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIwJSI+CjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMwMEY1RkYiLz4KPHN0b3Agb2Zmc2V0PSIzMyUiIHN0b3AtY29sb3I9IiM3QjJGRjciLz4KPHN0b3Agb2Zmc2V0PSI2NiUiIHN0b3AtY29sb3I9IiNGRjJFOTIiLz4KPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZEMjNGIi8+CjwvbGluZWFyR3JhZGllbnQ+CjwvZGVmcz4KPHJlY3Qgd2lkdGg9IjEyMDAiIGhlaWdodD0iNiIgZmlsbD0idXJsKCNnKSIvPgo8L3N2Zz4=" width="100%" height="4">
 
 ## ⚡ `whoami`
 
@@ -36,7 +36,7 @@ status: shipping
 
 I design and build **applied AI systems** — retrieval pipelines, agentic workflows, and evaluation harnesses that turn LLMs from cool demos into things that actually hold up in production. Comfortable across the whole stack: data → embeddings → retrieval → orchestration → model → eval → ship.
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
+<img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYiIHZpZXdCb3g9IjAgMCAxMjAwIDYiPgo8ZGVmcz4KPGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIwJSI+CjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMwMEY1RkYiLz4KPHN0b3Agb2Zmc2V0PSIzMyUiIHN0b3AtY29sb3I9IiM3QjJGRjciLz4KPHN0b3Agb2Zmc2V0PSI2NiUiIHN0b3AtY29sb3I9IiNGRjJFOTIiLz4KPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZEMjNGIi8+CjwvbGluZWFyR3JhZGllbnQ+CjwvZGVmcz4KPHJlY3Qgd2lkdGg9IjEyMDAiIGhlaWdodD0iNiIgZmlsbD0idXJsKCNnKSIvPgo8L3N2Zz4=" width="100%" height="4">
 
 ## 🧠 `what_i_work_on`
 
@@ -69,7 +69,7 @@ Classic + neural NLP, still useful even in the era of "just prompt it."
 </tr>
 </table>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
+<img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYiIHZpZXdCb3g9IjAgMCAxMjAwIDYiPgo8ZGVmcz4KPGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIwJSI+CjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMwMEY1RkYiLz4KPHN0b3Agb2Zmc2V0PSIzMyUiIHN0b3AtY29sb3I9IiM3QjJGRjciLz4KPHN0b3Agb2Zmc2V0PSI2NiUiIHN0b3AtY29sb3I9IiNGRjJFOTIiLz4KPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZEMjNGIi8+CjwvbGluZWFyR3JhZGllbnQ+CjwvZGVmcz4KPHJlY3Qgd2lkdGg9IjEyMDAiIGhlaWdodD0iNiIgZmlsbD0idXJsKCNnKSIvPgo8L3N2Zz4=" width="100%" height="4">
 
 ## 🛰️ `the_stack`
 
@@ -92,7 +92,7 @@ Classic + neural NLP, still useful even in the era of "just prompt it."
 
 </div>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
+<img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYiIHZpZXdCb3g9IjAgMCAxMjAwIDYiPgo8ZGVmcz4KPGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIwJSI+CjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMwMEY1RkYiLz4KPHN0b3Agb2Zmc2V0PSIzMyUiIHN0b3AtY29sb3I9IiM3QjJGRjciLz4KPHN0b3Agb2Zmc2V0PSI2NiUiIHN0b3AtY29sb3I9IiNGRjJFOTIiLz4KPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZEMjNGIi8+CjwvbGluZWFyR3JhZGllbnQ+CjwvZGVmcz4KPHJlY3Qgd2lkdGg9IjEyMDAiIGhlaWdodD0iNiIgZmlsbD0idXJsKCNnKSIvPgo8L3N2Zz4=" width="100%" height="4">
 
 ## 📡 `live_diagnostics`
 
@@ -116,7 +116,7 @@ Classic + neural NLP, still useful even in the era of "just prompt it."
 ╰────────────────────────────────────────────╯
 ```
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
+<img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYiIHZpZXdCb3g9IjAgMCAxMjAwIDYiPgo8ZGVmcz4KPGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIwJSI+CjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMwMEY1RkYiLz4KPHN0b3Agb2Zmc2V0PSIzMyUiIHN0b3AtY29sb3I9IiM3QjJGRjciLz4KPHN0b3Agb2Zmc2V0PSI2NiUiIHN0b3AtY29sb3I9IiNGRjJFOTIiLz4KPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZEMjNGIi8+CjwvbGluZWFyR3JhZGllbnQ+CjwvZGVmcz4KPHJlY3Qgd2lkdGg9IjEyMDAiIGhlaWdodD0iNiIgZmlsbD0idXJsKCNnKSIvPgo8L3N2Zz4=" width="100%" height="4">
 
 ## 📈 `github_activity`
 
@@ -139,7 +139,7 @@ Classic + neural NLP, still useful even in the era of "just prompt it."
 
 </div>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
+<img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYiIHZpZXdCb3g9IjAgMCAxMjAwIDYiPgo8ZGVmcz4KPGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIwJSI+CjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMwMEY1RkYiLz4KPHN0b3Agb2Zmc2V0PSIzMyUiIHN0b3AtY29sb3I9IiM3QjJGRjciLz4KPHN0b3Agb2Zmc2V0PSI2NiUiIHN0b3AtY29sb3I9IiNGRjJFOTIiLz4KPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZEMjNGIi8+CjwvbGluZWFyR3JhZGllbnQ+CjwvZGVmcz4KPHJlY3Qgd2lkdGg9IjEyMDAiIGhlaWdodD0iNiIgZmlsbD0idXJsKCNnKSIvPgo8L3N2Zz4=" width="100%" height="4">
 
 ## 🐍 `contribution_trace`
 
@@ -149,7 +149,7 @@ Classic + neural NLP, still useful even in the era of "just prompt it."
 
 </div>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
+<img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYiIHZpZXdCb3g9IjAgMCAxMjAwIDYiPgo8ZGVmcz4KPGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIwJSI+CjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMwMEY1RkYiLz4KPHN0b3Agb2Zmc2V0PSIzMyUiIHN0b3AtY29sb3I9IiM3QjJGRjciLz4KPHN0b3Agb2Zmc2V0PSI2NiUiIHN0b3AtY29sb3I9IiNGRjJFOTIiLz4KPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZEMjNGIi8+CjwvbGluZWFyR3JhZGllbnQ+CjwvZGVmcz4KPHJlY3Qgd2lkdGg9IjEyMDAiIGhlaWdodD0iNiIgZmlsbD0idXJsKCNnKSIvPgo8L3N2Zz4=" width="100%" height="4">
 
 ## 🏆 `lore`
 
@@ -171,7 +171,7 @@ Apparently there was a life outside the terminal at some point.
 
 </details>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
+<img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYiIHZpZXdCb3g9IjAgMCAxMjAwIDYiPgo8ZGVmcz4KPGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIwJSI+CjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMwMEY1RkYiLz4KPHN0b3Agb2Zmc2V0PSIzMyUiIHN0b3AtY29sb3I9IiM3QjJGRjciLz4KPHN0b3Agb2Zmc2V0PSI2NiUiIHN0b3AtY29sb3I9IiNGRjJFOTIiLz4KPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZEMjNGIi8+CjwvbGluZWFyR3JhZGllbnQ+CjwvZGVmcz4KPHJlY3Qgd2lkdGg9IjEyMDAiIGhlaWdodD0iNiIgZmlsbD0idXJsKCNnKSIvPgo8L3N2Zz4=" width="100%" height="4">
 
 ## 🎯 `connect`
 
