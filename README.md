@@ -206,7 +206,7 @@ Consistency over flash — showed up on both, term after term.
 <td valign="top">
 
 **1st Runner-Up — IFTP, Texas A&M University**
-Took the work outside the classroom, competed internationally, and placed.
+Took the work outside the classroom for the theme of economic sustainability, competed in university level only, and placed.
 
 </td>
 </tr>
