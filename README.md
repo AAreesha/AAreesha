@@ -1,242 +1,116 @@
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <img alt="Areesha Amir, AI Product Architect. From fragile demo to production system." src="assets/hero-light.svg" width="100%">
+</picture>
 
-<img src="https://capsule-render.vercel.app/api?type=soft&height=200&color=0:FF5DA2,50:B437F0,100:6C2BD9&text=Hi,%20I'm%20Areesha&fontColor=FFFFFF&fontSize=46&fontAlignY=45&fontFamily=monospace" width="100%"/>
+I build AI products that keep working once real users show up. That means retrieval that cites its sources, agents that know when to hand off to a human, and inference costs that someone has already budgeted for.
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=2600&pause=900&color=B437F0&center=true&vCenter=true&width=700&lines=AI+%2F+ML+Engineer;LLM+%2B+Agent+Systems;RAG+%C2%B7+Evals+%C2%B7+Fine-tuning" />
+**[Portfolio](https://areeshaamir.dev/)** · **[Resume](RESUME_URL)** · **[Email](mailto:EMAIL_ADDRESS)** · **[Book 20 min](CALENDAR_URL)** · **[LinkedIn](https://www.linkedin.com/in/areesha-amir/)**
 
-</div>
+<sub><b>Currently</b> · shipping ‹current system, one line› · open to graduate scholarships, research, and production-AI roles</sub>
 
 <br>
 
-<table width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/proof-dark.svg">
+  <img alt="20+ products shipped · 6 industries · 99.9% production uptime · 3.8 GPA at Habib University · Full merit scholarship" src="assets/proof-light.svg" width="100%">
+</picture>
+
+<br>
+
+## Selected systems
+
+<sub>Each one has run with real users. Numbers come from production, not from benchmarks.</sub>
+
+<table>
 <tr>
-<td width="62%" valign="top">
-
-### ✨ a little about me
-
-I build **applied AI systems** — not demos, things that hold up in production. My day-to-day lives somewhere between retrieval pipelines, agent orchestration, and figuring out why an eval score dropped 4% overnight.
-
-I like systems that are *measurable*. If it can't be evaluated, I probably don't trust it yet — including my own code.
-
-```
-> whoami
-areesha — ai/ml engineer
-> status
-shipping, mostly on schedule
-> currently
-teaching agents to disagree less
-```
-
+<td width="50%" valign="top">
+<b>01 · Grounded answers engine</b><br>
+<sub>RAG · ‹industry›</sub><br><br>
+<b>Problem</b>: Staff were answering policy questions from scattered documents, and a wrong answer had a real cost.<br>
+<b>Built</b>: Hybrid retrieval (BM25 + dense) with reranking and sentence-level citations. It refuses to answer when the evidence is thin.<br>
+<b>Outcome</b>: ‹__%› of answers carry a verifiable citation · p95 ‹__ s› · ‹__%› fewer escalations<br><br>
+<sub>Python · FastAPI · pgvector · Claude / GPT · Docker</sub><br><br>
+<a href="LINK">Live</a> · <a href="LINK">Case study</a>
 </td>
-<td width="38%" valign="top" align="center">
-
-**quick facts**
-
-🎓 BS Computer Science, Habib University
-🧠 LLMs · RAG · Agentic workflows
-🛠️ Python-first, ships in Docker
-📍 Based in Pakistan
-💌 [areesha-amir](https://www.linkedin.com/in/areesha-amir/)
-
+<td width="50%" valign="top">
+<b>02 · Agentic operations workflow</b><br>
+<sub>Agents · ‹industry›</sub><br><br>
+<b>Problem</b>: A multi-step intake → lookup → update process was done by hand, hundreds of times a week.<br>
+<b>Built</b>: A tool-calling agent with typed tools, step budgets, a full trace log, and human approval before anything is written.<br>
+<b>Outcome</b>: ‹__ hrs/week› returned · ‹__%› resolved end-to-end · 0 unreviewed writes<br><br>
+<sub>TypeScript · MCP · Postgres · queue workers</sub><br><br>
+<a href="LINK">Demo</a> · <a href="LINK">Architecture</a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<b>03 · Eval & regression harness</b><br>
+<sub>Reliability</sub><br><br>
+<b>Problem</b>: Prompt and model changes went out untested, and quality slipped without anyone noticing.<br>
+<b>Built</b>: Golden sets, LLM-as-judge rubrics calibrated against human labels, and a CI gate on every prompt, model, or retrieval change.<br>
+<b>Outcome</b>: ‹__› regressions caught before deploy · model swap at ‹__%› lower cost, same quality<br><br>
+<sub>Python · pytest · LLM-as-judge · GitHub Actions</sub><br><br>
+<a href="LINK">Repo</a>
+</td>
+<td width="50%" valign="top">
+<b>04 · Cost-aware LLM gateway</b><br>
+<sub>Infra</sub><br><br>
+<b>Problem</b>: Token spend was growing faster than usage.<br>
+<b>Built</b>: Routing by task difficulty, semantic caching, streaming, provider fallbacks, and cost attribution per feature.<br>
+<b>Outcome</b>: ‹__%› lower cost per request · 99.9% uptime through upstream provider outages<br><br>
+<sub>FastAPI · Redis · OpenTelemetry · Docker</sub><br><br>
+<a href="LINK">Write-up</a>
 </td>
 </tr>
 </table>
 
-<br>
+<sub>16 more across 6 industries at <a href="https://areeshaamir.dev/">areeshaamir.dev</a>.</sub>
 
-<div align="center">
+## How I work
 
-### 🧭 where I spend my time
+| Discover | Design | Build | Ship & sustain |
+|:--|:--|:--|:--|
+| Find the decision the system actually supports, and what a wrong answer costs. | Set latency, cost, and failure budgets before choosing a model. | Evals first, then the smallest pipeline that passes them. | Traces, alerts, and an escalation path, plus a person who owns it after launch. |
 
-</div>
+- **Measure before I optimize.** If I can't score a change, I don't ship it.
+- **Design for failure.** Every model call has a timeout, a fallback, and a path to a human.
+- **Cost is a feature.** Spend per request goes on the dashboard next to accuracy.
+- **Boring where possible.** Postgres before a new database, a script before a framework.
 
-<table width="100%">
-<tr>
-<td width="25%" align="center">
+## Stack
 
-**🔗 LLM Apps**
-Prompting, tool-calling, structured output, production APIs
+| Capability | What I use |
+|:--|:--|
+| **AI systems** | LLM APIs (Claude, GPT, open-weight) · RAG · reranking · structured output · evals · PyTorch |
+| **Agents & automation** | Tool calling · MCP · planners with step budgets · human-in-the-loop · workflow queues |
+| **Full-stack product** | TypeScript · React / Next.js · Python · FastAPI · PostgreSQL · auth & billing |
+| **MLOps & infra** | Docker · CI/CD · OpenTelemetry · caching · vector stores (pgvector, FAISS) · cloud deploys |
 
-</td>
-<td width="25%" align="center">
+## Signal
 
-**📚 RAG**
-Hybrid retrieval, chunking, reranking, grounding
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=AAreesha&count_private=true&include_all_commits=true&show_icons=true&hide_rank=true&hide_border=true&custom_title=GitHub&bg_color=0d1117&title_color=E8E4DC&text_color=8B9098&icon_color=86A7C8">
+  <img alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=AAreesha&count_private=true&include_all_commits=true&show_icons=true&hide_rank=true&hide_border=true&custom_title=GitHub&bg_color=ffffff&title_color=1C1E21&text_color=676C73&icon_color=2F4F6F" height="150">
+</picture>
 
-</td>
-<td width="25%" align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=AAreesha&bg_color=0d1117&color=8B9098&title_color=E8E4DC&line=86A7C8&point=E8E4DC&area=true&area_color=86A7C8&hide_border=true&custom_title=Contribution%20activity&height=240">
+  <img alt="Contribution activity" src="https://github-readme-activity-graph.vercel.app/graph?username=AAreesha&bg_color=ffffff&color=676C73&title_color=1C1E21&line=2F4F6F&point=1C1E21&area=true&area_color=2F4F6F&hide_border=true&custom_title=Contribution%20activity&height=240" width="100%">
+</picture>
 
-**🤖 Agents**
-Planners, tool use, MCP-style orchestration
+**Ask me about:** why your RAG demo hallucinates in production · evaluating agents without a labelled dataset · cutting inference cost without losing quality.
 
-</td>
-<td width="25%" align="center">
+## Trajectory
 
-**📊 Evals**
-LLM-as-judge, regression harnesses, offline metrics
+**Habib University** · BS Computer Science · 2021–2025<br>
+Full merit scholarship (HU TOPS) · 3.8 GPA · Dean's and President's Lists<br>
+1st Runner-Up, IFTP at Texas A&M University (2024), on economic sustainability
 
-</td>
-</tr>
-</table>
+The scholarship bought four years to learn the fundamentals properly. I spent them shipping: 20+ products across 6 industries, each one teaching me what fails first when real people use it. Now I'm looking for a place where production AI is the core problem, whether that's a research group, a graduate program, or a team that ships models to millions of users.
 
-<br>
+## Next step
 
-<div align="center">
+If you fund, research, or ship AI systems that need to hold up in the real world, I'd like to hear from you. A short email is enough, and I reply within two days.
 
-### 🛰️ arsenal
-
-**Languages**
-![](https://img.shields.io/badge/Python-FF5DA2?style=flat-square&logo=python&logoColor=white&labelColor=0D0D0D)
-![](https://img.shields.io/badge/C++-B437F0?style=flat-square&logo=cplusplus&logoColor=white&labelColor=0D0D0D)
-![](https://img.shields.io/badge/C-6C2BD9?style=flat-square&logo=c&logoColor=white&labelColor=0D0D0D)
-![](https://img.shields.io/badge/TypeScript-FF5DA2?style=flat-square&logo=typescript&logoColor=white&labelColor=0D0D0D)
-
-**AI / ML**
-![](https://img.shields.io/badge/PyTorch-B437F0?style=flat-square&logo=pytorch&logoColor=white&labelColor=0D0D0D)
-![](https://img.shields.io/badge/TensorFlow-6C2BD9?style=flat-square&logo=tensorflow&logoColor=white&labelColor=0D0D0D)
-![](https://img.shields.io/badge/scikit--learn-FF5DA2?style=flat-square&logo=scikitlearn&logoColor=white&labelColor=0D0D0D)
-![](https://img.shields.io/badge/spaCy-B437F0?style=flat-square&logo=spacy&logoColor=white&labelColor=0D0D0D)
-![](https://img.shields.io/badge/LangChain-6C2BD9?style=flat-square&labelColor=0D0D0D)
-![](https://img.shields.io/badge/FAISS-FF5DA2?style=flat-square&labelColor=0D0D0D)
-![](https://img.shields.io/badge/MCP-B437F0?style=flat-square&labelColor=0D0D0D)
-
-**Infra & Tools**
-![](https://img.shields.io/badge/FastAPI-6C2BD9?style=flat-square&logo=fastapi&logoColor=white&labelColor=0D0D0D)
-![](https://img.shields.io/badge/Docker-FF5DA2?style=flat-square&logo=docker&logoColor=white&labelColor=0D0D0D)
-![](https://img.shields.io/badge/PostgreSQL-B437F0?style=flat-square&logo=postgresql&logoColor=white&labelColor=0D0D0D)
-![](https://img.shields.io/badge/Git-6C2BD9?style=flat-square&logo=git&logoColor=white&labelColor=0D0D0D)
-![](https://img.shields.io/badge/Linux-FF5DA2?style=flat-square&logo=linux&logoColor=white&labelColor=0D0D0D)
-
-</div>
-
-<br>
-
-<div align="center">
-
-### 📊 snapshot
-
-<img src="https://github-readme-stats.vercel.app/api?username=AAreesha&show_icons=true&hide_border=true&bg_color=0D0D0D&title_color=FF5DA2&icon_color=B437F0&text_color=E8E6E9&ring_color=6C2BD9&rank_icon=percentile" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AAreesha&layout=compact&hide_border=true&bg_color=0D0D0D&title_color=FF5DA2&text_color=E8E6E9&langs_count=8" height="165"/>
-
-<br><br>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=AAreesha&theme=merko&utcOffset=5" height="150"/>
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=AAreesha&bg_color=0D0D0D&color=FF5DA2&line=B437F0&point=FFFFFF&area=true&hide_border=true&custom_title=CONTRIBUTION+ACTIVITY&height=280" width="97%"/>
-
-<br><br>
-
-<img src="https://github-profile-trophy.vercel.app/?username=AAreesha&theme=radical&no-frame=true&no-bg=true&margin-w=8&row=1&column=7"/>
-
-</div>
-
-> Dropped the streak-stats widget for good — it rendered with a white card edge that broke on GitHub's dark theme, and the activity graph + productive-time card above already tell that story better.
-
-<br>
-
-<div align="center">
-
-### 🐍 contribution trace
-
-<img src="https://raw.githubusercontent.com/AAreesha/AAreesha/gh-pages/github-contribution-grid-snake-dark.svg" width="97%"/>
-
-</div>
-
-<br>
-
-<div align="center">
-
-## 🏆 the journey
-
-</div>
-
-<table width="100%">
-<tr>
-<td width="12%" align="center" valign="top">
-
-🎓
-<br>
-<sub><b>2021–25</b></sub>
-
-</td>
-<td width="88%" valign="top">
-
-**BS Computer Science — Habib University**
-Where most of this started. Four years of turning coffee into code and coursework into a fairly stubborn habit of shipping things.
-
-</td>
-</tr>
-<tr>
-<td align="center" valign="top">
-
-🥇
-<br>
-<sub><b>ongoing</b></sub>
-
-</td>
-<td valign="top">
-
-**HU TOPS Scholar**
-Full-ride, merit-based — awarded to the top slice of the applicant pool.
-
-</td>
-</tr>
-<tr>
-<td align="center" valign="top">
-
-📜
-<br>
-<sub><b>every term</b></sub>
-
-</td>
-<td valign="top">
-
-**Dean's Honor List & President's List**
-Consistency over flash — showed up on both, term after term.
-
-</td>
-</tr>
-<tr>
-<td align="center" valign="top">
-
-🥈
-<br>
-<sub><b>2024</b></sub>
-
-</td>
-<td valign="top">
-
-**1st Runner-Up — IFTP, Texas A&M University**
-Took the work outside the classroom for the theme of economic sustainability, competed in university level only, and placed.
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-
-![](https://img.shields.io/badge/Full--Ride%20Scholar-FF5DA2?style=for-the-badge&labelColor=0D0D0D)
-![](https://img.shields.io/badge/Dean's%20%2B%20President's%20List-B437F0?style=for-the-badge&labelColor=0D0D0D)
-![](https://img.shields.io/badge/IFTP%20'24%20%E2%80%94%201st%20Runner--Up-6C2BD9?style=for-the-badge&labelColor=0D0D0D)
-
-<sub><i>apparently there was a life outside the terminal at some point</i></sub>
-
-</div>
-
-<br>
-
-<div align="center">
-
-### 🎯 let's connect
-
-<a href="https://github.com/AAreesha"><img src="https://img.shields.io/badge/GitHub-0D0D0D?style=for-the-badge&logo=github&logoColor=FF5DA2"/></a>
-<a href="https://www.linkedin.com/in/areesha-amir/"><img src="https://img.shields.io/badge/LinkedIn-0D0D0D?style=for-the-badge&logo=linkedin&logoColor=B437F0"/></a>
-<a href="https://github.com/AAreesha?tab=repositories"><img src="https://img.shields.io/badge/Projects-0D0D0D?style=for-the-badge&logo=googlechrome&logoColor=6C2BD9"/></a>
-<img src="https://komarev.com/ghpvc/?username=AAreesha&label=Profile+Views&color=B437F0&style=for-the-badge"/>
-
-<br><br>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=12&duration=2800&pause=900&color=9B9296&center=true&vCenter=true&width=600&lines=connection+established...;thanks+for+stopping+by." />
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=soft&height=120&section=footer&color=0:6C2BD9,50:B437F0,100:FF5DA2" width="100%"/>
+**[Email](mailto:EMAIL_ADDRESS)** · **[Book 20 min](CALENDAR_URL)** · **[areeshaamir.dev](https://areeshaamir.dev/)**

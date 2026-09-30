@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="250" viewBox="0 0 880 250" role="img" aria-label="Areesha Amir. AI Product Architect. From fragile demo to production system.">
+<style>
+.mono{font-family:ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,monospace;font-size:13px;letter-spacing:.02em}
+.eyebrow{font-family:ui-monospace,'SFMono-Regular','JetBrains Mono',Menlo,Consolas,monospace;font-size:12px;letter-spacing:.18em;fill:#8B9098}
+.display{font-family:'Iowan Old Style','Charter','Source Serif Pro',Georgia,'Times New Roman',serif;font-size:44px;fill:#E8E4DC;letter-spacing:-.01em}
+.sub{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif;font-size:16px;fill:#8B9098}
+.typed{fill:#E8E4DC}
+.label{fill:#8B9098}
+.accent{fill:#86A7C8}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+.dot{animation:pulse 2.4s ease-in-out infinite}
+@keyframes t0{0%{width:0}15.00%{width:410px}30.67%{width:410px}33.33%{width:0}100%{width:0}}.c0{width:0;animation:t0 12.0s steps(52,end) 0.0s infinite}@keyframes t1{0%{width:0}15.00%{width:417px}30.67%{width:417px}33.33%{width:0}100%{width:0}}.c1{width:0;animation:t1 12.0s steps(53,end) 4.0s infinite}@keyframes t2{0%{width:0}15.00%{width:433px}30.67%{width:433px}33.33%{width:0}100%{width:0}}.c2{width:0;animation:t2 12.0s steps(55,end) 8.0s infinite}
+</style>
+<text x="0" y="22" class="eyebrow">AREESHA AMIR <tspan class="accent">/</tspan> AI PRODUCT ARCHITECT</text>
+<text x="0" y="86" class="display">From fragile demo</text>
+<text x="0" y="138" class="display">to production system<tspan class="accent">.</tspan></text>
+<text x="0" y="172" class="sub">LLM systems built to survive real users, real load, and real budgets.</text>
+<line x1="0" y1="192" x2="880" y2="192" stroke="#2B3038" stroke-width="1"/>
+<circle cx="6" cy="216" r="4" fill="#86A7C8" class="dot"/>
+<text x="18" y="220" class="mono label">live</text>
+<text x="52" y="220" class="mono accent">›</text>
+<clipPath id="k0"><rect class="c0" x="64" y="206" height="20"/></clipPath><text x="64" y="220" class="mono typed" clip-path="url(#k0)">RAG that cites its sources, or says it doesn't know.</text><clipPath id="k1"><rect class="c1" x="64" y="206" height="20"/></clipPath><text x="64" y="220" class="mono typed" clip-path="url(#k1)">Agents with step budgets and a human escalation path.</text><clipPath id="k2"><rect class="c2" x="64" y="206" height="20"/></clipPath><text x="64" y="220" class="mono typed" clip-path="url(#k2)">p95 latency and cost per request, tracked from day one.</text>
+</svg>
