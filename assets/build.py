@@ -13,18 +13,18 @@ from pathlib import Path
 OUT = Path(__file__).parent
 
 THEMES = {
-    # mode: (text, muted, hairline, accent, surface)
+    # mode: (text, muted, hairline, accent, surface, rose)
     "ink": {
-        "dark": ("#E8E4DC", "#8B9098", "#2B3038", "#86A7C8", "#151A21"),
-        "light": ("#1C1E21", "#676C73", "#D8D3C9", "#2F4F6F", "#F6F4EF"),
+        "dark": ("#E8E4DC", "#8B9098", "#2B3038", "#86A7C8", "#151A21", "#E8A3BC"),
+        "light": ("#1C1E21", "#676C73", "#D8D3C9", "#2F4F6F", "#F6F4EF", "#B5577D"),
     },
     "bronze": {
-        "dark": ("#EAE4DA", "#8F8A83", "#2F2C28", "#C29B6C", "#1A1816"),
-        "light": ("#1E1C1A", "#6E6962", "#DDD5C8", "#8A6239", "#F7F3EC"),
+        "dark": ("#EAE4DA", "#8F8A83", "#2F2C28", "#C29B6C", "#1A1816", "#E3A6B4"),
+        "light": ("#1E1C1A", "#6E6962", "#DDD5C8", "#8A6239", "#F7F3EC", "#A9566E"),
     },
     "verdigris": {
-        "dark": ("#E6E6E0", "#8A918F", "#29302F", "#7FAAA0", "#141A19"),
-        "light": ("#1B1E1D", "#666D6B", "#D6D6CE", "#3E6F66", "#F3F5F2"),
+        "dark": ("#E6E6E0", "#8A918F", "#29302F", "#7FAAA0", "#141A19", "#E6A4BA"),
+        "light": ("#1B1E1D", "#666D6B", "#D6D6CE", "#3E6F66", "#F3F5F2", "#AE5878"),
     },
 }
 
@@ -125,10 +125,10 @@ def svg(w, h, label, style, body):
 
 
 def base_css(c):
-    fg, muted, rule, accent, surface = c
+    fg, muted, rule, accent, surface, rose = c
     return (
         f".sans{{font-family:{SANS}}}.mono{{font-family:{MONO}}}"
-        f".fg{{fill:{fg}}}.muted{{fill:{muted}}}.accent{{fill:{accent}}}"
+        f".fg{{fill:{fg}}}.muted{{fill:{muted}}}.accent{{fill:{accent}}}.rose{{fill:{rose}}}"
         "@keyframes up{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}"
         ".up{opacity:0;animation:up .8s cubic-bezier(.2,.7,.2,1) forwards}"
         "@keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}"
@@ -142,7 +142,7 @@ def base_css(c):
 
 def icon(kind, x, y, c, s=1.0):
     """Small animated line-art motifs, drawn in a 48x48 box at (x, y)."""
-    fg, muted, rule, accent, surface = c
+    fg, muted, rule, accent, surface, rose = c
     g = f'<g transform="translate({x} {y}) scale({s})" fill="none" stroke-linecap="round" stroke-linejoin="round">'
     if kind == "chat":
         g += (
@@ -184,7 +184,7 @@ def icon(kind, x, y, c, s=1.0):
 
 
 def hero(c):
-    fg, muted, rule, accent, surface = c
+    fg, muted, rule, accent, surface, rose = c
     w, h = 880, 300
     cycle = 4.0 * len(TYPED)
     share = 100 / len(TYPED)
@@ -207,7 +207,7 @@ def hero(c):
              f'<circle cx="{cx}" cy="{cy}" r="44" fill="none" stroke="{rule}"/>'
              f'<circle cx="{cx}" cy="{cy}" r="22" fill="{accent}" opacity=".18" class="pulse"/>'
              f'<circle cx="{cx}" cy="{cy}" r="9" fill="{accent}"/>')
-    for r, dur, size, col, start in [(44, 7, 4, fg, 0), (78, 13, 5, accent, 120), (78, 13, 3, fg, 300), (110, 21, 4, accent, 200)]:
+    for r, dur, size, col, start in [(44, 7, 4, fg, 0), (78, 13, 5, accent, 120), (78, 13, 4, rose, 300), (110, 21, 4, accent, 200)]:
         orbit += (f'<g><circle cx="{cx + r}" cy="{cy}" r="{size}" fill="{col}"/>'
                   f'<animateTransform attributeName="transform" type="rotate" from="{start} {cx} {cy}" '
                   f'to="{start+360} {cx} {cy}" dur="{dur}s" repeatCount="indefinite"/></g>')
@@ -215,9 +215,9 @@ def hero(c):
     body = (
         orbit +
         f'<g class="up" style="animation-delay:.1s"><rect x="0" y="18" width="232" height="30" rx="15" fill="{surface}" stroke="{rule}"/>'
-        f'<circle cx="18" cy="33" r="4.5" class="accent pulse"/>'
+        f'<circle cx="18" cy="33" r="4.5" class="rose pulse"/>'
         f'<text x="32" y="37.5" class="sans pill fg">OPEN TO OPPORTUNITIES</text></g>'
-        f'<text x="0" y="118" class="sans name fg up" style="animation-delay:.3s">Hi, I\'m Areesha Amir<tspan class="accent">.</tspan></text>'
+        f'<text x="0" y="118" class="sans name fg up" style="animation-delay:.3s">Hi, I\'m Areesha Amir<tspan class="rose">.</tspan></text>'
         f'<text x="0" y="158" class="sans lead muted up" style="animation-delay:.55s">I turn AI ideas into products people can rely on.</text>'
         f'<line x1="0" y1="190" x2="520" y2="190" stroke="{rule}"/>'
         f'<line x1="0" y1="190" x2="520" y2="190" stroke="{accent}" stroke-width="2" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1">'
@@ -228,7 +228,7 @@ def hero(c):
 
 
 def stats(c):
-    fg, muted, rule, accent, surface = c
+    fg, muted, rule, accent, surface, rose = c
     w, h, gap = 880, 124, 12
     tw = (w - gap * (len(STATS) - 1)) / len(STATS)
     css = base_css(c) + ".num{font-size:34px;font-weight:700;letter-spacing:-.02em}.lbl{font-size:13px}"
@@ -241,14 +241,14 @@ def stats(c):
                  f'<text x="{x+20:.1f}" y="58" class="sans num fg">{escape(num)}</text>'
                  f'<text x="{x+20:.1f}" y="84" class="sans lbl muted">{escape(label)}</text>'
                  f'<rect x="{x+20:.1f}" y="100" width="{tw-40:.1f}" height="3" rx="1.5" fill="{rule}"/>'
-                 f'<rect x="{x+20:.1f}" y="100" width="0" height="3" rx="1.5" fill="{accent}">'
+                 f'<rect x="{x+20:.1f}" y="100" width="0" height="3" rx="1.5" fill="{rose if i % 2 else accent}">'
                  f'<animate attributeName="width" from="0" to="{tw-40:.1f}" begin="{d+.4:.2f}s" dur="1.2s" fill="freeze" '
                  'calcMode="spline" keySplines=".2 .7 .2 1"/></rect></g>')
     return svg(w, h, " · ".join(f"{n} {l}" for n, l in STATS), css, body)
 
 
 def section(c, num, title):
-    fg, muted, rule, accent, surface = c
+    fg, muted, rule, accent, surface, rose = c
     w, h = 880, 60
     css = base_css(c) + ".n{font-size:13px;letter-spacing:.1em}.t{font-size:24px;font-weight:700;letter-spacing:-.01em}"
     tx = 52
@@ -257,20 +257,20 @@ def section(c, num, title):
             f'<text x="{tx}" y="40" class="sans t fg">{escape(title)}</text>'
             f'<line x1="{lx:.0f}" y1="32" x2="{w}" y2="32" stroke="{rule}" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1">'
             '<animate attributeName="stroke-dashoffset" from="1" to="0" dur="1.2s" fill="freeze"/></line>'
-            f'<circle cy="32" r="3" fill="{accent}"><animate attributeName="cx" values="{lx:.0f};{w-4};{lx:.0f}" '
+            f'<circle cy="32" r="3" fill="{rose}"><animate attributeName="cx" values="{lx:.0f};{w-4};{lx:.0f}" '
             'dur="9s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".5 0 .5 1;.5 0 .5 1"/></circle>')
     return svg(w, h, f"{num} {title}", css, body)
 
 
 def card(c, tag, title, desc, outcome, motif):
-    fg, muted, rule, accent, surface = c
+    fg, muted, rule, accent, surface, rose = c
     w, h = 432, 250
     css = base_css(c) + (".tag{font-size:11px;letter-spacing:.08em}.title{font-size:20px;font-weight:700}"
                          ".desc{font-size:14px}.out{font-size:13.5px;font-weight:600}.more{font-size:12.5px}")
     lines = wrap(desc, 50)[:3]
     tag_w = len(tag) * 7.6 + 24
     body = (f'<rect x=".5" y=".5" width="{w-1}" height="{h-1}" rx="16" fill="{surface}" stroke="{rule}"/>'
-            f'<rect x=".5" y=".5" width="{w-1}" height="{h-1}" rx="16" fill="none" stroke="{accent}" pathLength="1" '
+            f'<rect x=".5" y=".5" width="{w-1}" height="{h-1}" rx="16" fill="none" stroke="{rose}" pathLength="1" '
             'stroke-dasharray=".12 .88" stroke-dashoffset="0" opacity=".9">'
             '<animate attributeName="stroke-dashoffset" from="0" to="-1" dur="7s" repeatCount="indefinite"/></rect>'
             f'<g class="float">{icon(motif, 24, 22, c)}</g>'
@@ -279,20 +279,20 @@ def card(c, tag, title, desc, outcome, motif):
             f'<text x="24" y="104" class="sans title fg">{escape(title)}</text>')
     for i, line in enumerate(lines):
         body += f'<text x="24" y="{132 + i*21}" class="sans desc muted">{escape(line)}</text>'
-    body += (f'<circle cx="30" cy="{h-30}" r="4" class="accent pulse"/>'
+    body += (f'<circle cx="30" cy="{h-30}" r="4" class="rose pulse"/>'
              f'<text x="42" y="{h-25}" class="sans out accent">{escape(outcome)}</text>'
              f'<text x="{w-24}" y="{h-25}" text-anchor="end" class="sans more muted">View →</text>')
     return svg(w, h, f"{title}. {desc} {outcome}.", css, body)
 
 
 def steps(c):
-    fg, muted, rule, accent, surface = c
+    fg, muted, rule, accent, surface, rose = c
     w, h = 880, 190
     n = len(STEPS)
     xs = [70 + i * (w - 140) / (n - 1) for i in range(n)]
     css = base_css(c) + ".st{font-size:17px;font-weight:700}.sd{font-size:13.5px}.sn{font-size:12px;font-weight:700}"
     body = (f'<line x1="{xs[0]:.0f}" y1="40" x2="{xs[-1]:.0f}" y2="40" stroke="{rule}" stroke-width="2"/>'
-            f'<line x1="{xs[0]:.0f}" y1="40" x2="{xs[-1]:.0f}" y2="40" stroke="{accent}" stroke-width="2" pathLength="1" '
+            f'<line x1="{xs[0]:.0f}" y1="40" x2="{xs[-1]:.0f}" y2="40" stroke="{rose}" stroke-width="2" pathLength="1" '
             'stroke-dasharray=".18 .82"><animate attributeName="stroke-dashoffset" from=".18" to="-1" dur="4s" repeatCount="indefinite"/></line>')
     for i, ((title, desc), x) in enumerate(zip(STEPS, xs)):
         d = i * .25
@@ -310,7 +310,7 @@ def steps(c):
 
 
 def skills(c):
-    fg, muted, rule, accent, surface = c
+    fg, muted, rule, accent, surface, rose = c
     w, h, gap = 880, 200, 14
     tw = (w - gap * (len(SKILLS) - 1)) / len(SKILLS)
     css = base_css(c) + ".kt{font-size:16.5px;font-weight:700}.kd{font-size:13.5px}"
@@ -328,7 +328,7 @@ def skills(c):
 
 
 def journey(c):
-    fg, muted, rule, accent, surface = c
+    fg, muted, rule, accent, surface, rose = c
     w, h = 880, 180
     n = len(JOURNEY)
     xs = [80 + i * (w - 160) / (n - 1) for i in range(n)]
@@ -339,39 +339,39 @@ def journey(c):
         d = i * .45
         last = i == n - 1
         body += (f'<g class="up" style="animation-delay:{d:.2f}s">'
-                 f'<text x="{x:.0f}" y="30" text-anchor="middle" class="sans jy {"accent" if last else "muted"}">{escape(when.upper())}</text>'
-                 f'<circle cx="{x:.0f}" cy="56" r="8" fill="{accent if last else surface}" stroke="{accent}" stroke-width="2"/>')
+                 f'<text x="{x:.0f}" y="30" text-anchor="middle" class="sans jy {"rose" if last else "muted"}">{escape(when.upper())}</text>'
+                 f'<circle cx="{x:.0f}" cy="56" r="8" fill="{rose if last else surface}" stroke="{rose if last else accent}" stroke-width="2"/>')
         for j, line in enumerate(wrap(what, 20)):
             body += f'<text x="{x:.0f}" y="{94 + j*19}" text-anchor="middle" class="sans jd {"fg" if last else "muted"}">{escape(line)}</text>'
         body += "</g>"
-    body += (f'<circle cx="{xs[-1]:.0f}" cy="56" r="8" fill="none" stroke="{accent}">'
+    body += (f'<circle cx="{xs[-1]:.0f}" cy="56" r="8" fill="none" stroke="{rose}">'
              '<animate attributeName="r" values="8;22" dur="2.4s" repeatCount="indefinite"/>'
              '<animate attributeName="opacity" values=".8;0" dur="2.4s" repeatCount="indefinite"/></circle>')
     return svg(w, h, " → ".join(f"{a}: {b}" for a, b in JOURNEY), css, body)
 
 
 def cta(c):
-    fg, muted, rule, accent, surface = c
+    fg, muted, rule, accent, surface, rose = c
     w, h = 880, 190
     css = base_css(c) + ".big{font-size:32px;font-weight:700;letter-spacing:-.02em}.sub{font-size:16px}"
     body = (f'<rect x="1" y="1" width="{w-2}" height="{h-2}" rx="20" fill="{surface}" stroke="{rule}"/>'
-            f'<rect x="1" y="1" width="{w-2}" height="{h-2}" rx="20" fill="none" stroke="{accent}" stroke-width="1.5" pathLength="1" '
+            f'<rect x="1" y="1" width="{w-2}" height="{h-2}" rx="20" fill="none" stroke="{rose}" stroke-width="1.5" pathLength="1" '
             'stroke-dasharray=".2 .8"><animate attributeName="stroke-dashoffset" from="0" to="-1" dur="8s" repeatCount="indefinite"/></rect>'
-            f'<text x="{w/2:.0f}" y="84" text-anchor="middle" class="sans big fg up">Let\'s build something that lasts<tspan class="accent">.</tspan></text>'
+            f'<text x="{w/2:.0f}" y="84" text-anchor="middle" class="sans big fg up">Let\'s build something that lasts<tspan class="rose">.</tspan></text>'
             f'<text x="{w/2:.0f}" y="118" text-anchor="middle" class="sans sub muted up" style="animation-delay:.25s">'
             'Open to graduate scholarships, research, and AI product roles.</text>'
-            f'<g class="up" style="animation-delay:.5s"><circle cx="{w/2-92:.0f}" cy="148" r="4.5" class="accent pulse"/>'
+            f'<g class="up" style="animation-delay:.5s"><circle cx="{w/2-92:.0f}" cy="148" r="4.5" class="rose pulse"/>'
             f'<text x="{w/2-80:.0f}" y="152.5" class="mono muted" style="font-size:12.5px">replies within two days</text></g>')
     return svg(w, h, "Let's build something that lasts. Open to graduate scholarships, research, and AI product roles.", css, body)
 
 
 def button(c, label):
-    fg, muted, rule, accent, surface = c
+    fg, muted, rule, accent, surface, rose = c
     w, h = 150, 46
     css = base_css(c) + ".b{font-size:14.5px;font-weight:600}"
     body = (f'<rect x="1" y="1" width="{w-2}" height="{h-2}" rx="23" fill="{surface}" stroke="{accent}" stroke-width="1.3"/>'
             f'<text x="{w/2-6:.0f}" y="28.5" text-anchor="middle" class="sans b fg" dx="-6">{escape(label)}</text>'
-            f'<text x="{w-36}" y="28.5" class="sans b accent">→<animate attributeName="x" values="{w-38};{w-33};{w-38}" '
+            f'<text x="{w-36}" y="28.5" class="sans b rose">→<animate attributeName="x" values="{w-38};{w-33};{w-38}" '
             'dur="1.8s" repeatCount="indefinite"/></text>')
     return svg(w, h, label, css, body)
 

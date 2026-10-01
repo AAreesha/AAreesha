@@ -45,15 +45,35 @@ A full scholarship gave me four years to learn the fundamentals properly, and I 
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/sections/activity-dark.svg"><img alt="05 On GitHub" src="assets/sections/activity-light.svg" width="100%"></picture>
 
+<p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=AAreesha&count_private=true&include_all_commits=true&show_icons=true&hide_rank=true&hide_border=true&custom_title=GitHub&bg_color=0d1117&title_color=E8E4DC&text_color=8B9098&icon_color=86A7C8">
-  <img alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=AAreesha&count_private=true&include_all_commits=true&show_icons=true&hide_rank=true&hide_border=true&custom_title=GitHub&bg_color=ffffff&title_color=1C1E21&text_color=676C73&icon_color=2F4F6F" height="150">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=AAreesha&count_private=true&include_all_commits=true&show_icons=true&hide_rank=true&hide_border=true&custom_title=GitHub&bg_color=0d1117&title_color=E8E4DC&text_color=8B9098&icon_color=E8A3BC">
+  <img alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=AAreesha&count_private=true&include_all_commits=true&show_icons=true&hide_rank=true&hide_border=true&custom_title=GitHub&bg_color=ffffff&title_color=1C1E21&text_color=676C73&icon_color=B5577D" height="165">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=AAreesha&layout=compact&langs_count=6&hide_border=true&custom_title=Most%20used&bg_color=0d1117&title_color=E8E4DC&text_color=8B9098">
+  <img alt="Most used languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AAreesha&layout=compact&langs_count=6&hide_border=true&custom_title=Most%20used&bg_color=ffffff&title_color=1C1E21&text_color=676C73" height="165">
+</picture>
+</p>
+
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=AAreesha&hide_border=true&background=0d1117&stroke=2B3038&ring=E8A3BC&fire=E8A3BC&currStreakNum=E8E4DC&sideNums=E8E4DC&currStreakLabel=E8A3BC&sideLabels=8B9098&dates=8B9098">
+  <img alt="Contribution streak" src="https://streak-stats.demolab.com?user=AAreesha&hide_border=true&background=ffffff&stroke=D8D3C9&ring=B5577D&fire=B5577D&currStreakNum=1C1E21&sideNums=1C1E21&currStreakLabel=B5577D&sideLabels=676C73&dates=676C73" height="165">
+</picture>
+</p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=AAreesha&area=true&hide_border=true&custom_title=Contribution%20activity&height=240&bg_color=0d1117&color=8B9098&title_color=E8E4DC&line=86A7C8&point=E8A3BC&area_color=86A7C8">
+  <img alt="Contribution activity" src="https://github-readme-activity-graph.vercel.app/graph?username=AAreesha&area=true&hide_border=true&custom_title=Contribution%20activity&height=240&bg_color=ffffff&color=676C73&title_color=1C1E21&line=2F4F6F&point=B5577D&area_color=2F4F6F" width="100%">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=AAreesha&area=true&hide_border=true&custom_title=Contribution%20activity&height=240&bg_color=0d1117&color=8B9098&title_color=E8E4DC&line=86A7C8&point=E8E4DC&area_color=86A7C8">
-  <img alt="Contribution activity" src="https://github-readme-activity-graph.vercel.app/graph?username=AAreesha&area=true&hide_border=true&custom_title=Contribution%20activity&height=240&bg_color=ffffff&color=676C73&title_color=1C1E21&line=2F4F6F&point=1C1E21&area_color=2F4F6F" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AAreesha/AAreesha/output/snake-dark.svg">
+  <img alt="Contribution snake" src="https://raw.githubusercontent.com/AAreesha/AAreesha/output/snake-light.svg" width="100%">
 </picture>
+
+<p align="center"><img alt="Profile views" src="https://komarev.com/ghpvc/?username=AAreesha&label=profile%20views&color=B5577D&style=flat-square"></p>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/sections/talk-dark.svg"><img alt="06 Let's talk" src="assets/sections/talk-light.svg" width="100%"></picture>
 
