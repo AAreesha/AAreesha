@@ -43,9 +43,9 @@ I build AI products that keep working after launch day: assistants that show whe
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/sections/journey-dark.svg"><img alt="04 My journey" src="assets/sections/journey-light.svg" width="100%"></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/journey-dark.svg"><img alt="From a full scholarship at Habib University to 20+ products shipped" src="assets/journey-light.svg" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/journey-dark.svg"><img alt="Career: AI Product Architect, AI Consultant, AI/ML Engineer at JBS and Vettio, Research Intern at AI @ Dartmouth, Frontend Engineer at Securiti; BS Computer Science at Habib University" src="assets/journey-light.svg" width="100%"></picture>
 
-A full scholarship gave me four years to learn the fundamentals properly, and I spent them building for real people: AI/ML engineering at JBS and Vettio, frontend at Securiti, research at AI @ Dartmouth, and teaching assistant work at Habib. Today I help teams turn stalled AI demos into products that hold up with real users and real costs. Next, I'm looking for a graduate program, research group, or product team where that matters.
+From internships to running my own practice, every role has been about the same thing: getting AI out of the demo and into people's hands. Next, I'm looking for a graduate program, research group, or product team where that matters.
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/sections/activity-dark.svg"><img alt="05 On GitHub" src="assets/sections/activity-light.svg" width="100%"></picture>
 
