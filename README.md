@@ -1,242 +1,92 @@
-<div align="center">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg"><img alt="Hi, I'm Areesha Amir. I turn AI ideas into products people can rely on." src="assets/hero-light.svg" width="100%"></picture>
 
-<img src="https://capsule-render.vercel.app/api?type=soft&height=200&color=0:FF5DA2,50:B437F0,100:6C2BD9&text=Hi,%20I'm%20Areesha&fontColor=FFFFFF&fontSize=46&fontAlignY=45&fontFamily=monospace" width="100%"/>
+<p align="center">
+<a href="https://areeshaamir.dev/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/portfolio-dark.svg"><img alt="Portfolio" src="assets/buttons/portfolio-light.svg" width="150"></picture></a>
+<a href="https://areeshaamir.dev/areeshaamir-resume.pdf"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/resume-dark.svg"><img alt="Resume" src="assets/buttons/resume-light.svg" width="150"></picture></a>
+<a href="mailto:xmireesha@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/email-dark.svg"><img alt="Email" src="assets/buttons/email-light.svg" width="150"></picture></a>
+<a href="https://areeshaamir.dev/#contact"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/contact-dark.svg"><img alt="Contact" src="assets/buttons/contact-light.svg" width="150"></picture></a>
+<a href="https://www.linkedin.com/in/areesha-amir-512a51282"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/linkedin-dark.svg"><img alt="LinkedIn" src="assets/buttons/linkedin-light.svg" width="150"></picture></a>
+</p>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=2600&pause=900&color=B437F0&center=true&vCenter=true&width=700&lines=AI+%2F+ML+Engineer;LLM+%2B+Agent+Systems;RAG+%C2%B7+Evals+%C2%B7+Fine-tuning" />
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg"><img alt="20+ products shipped · 6 industries · 99.9% uptime · 3.8 GPA · Full scholarship" src="assets/stats-light.svg" width="100%"></picture>
 
-</div>
-
-<br>
-
-<table width="100%">
-<tr>
-<td width="62%" valign="top">
-
-### ✨ a little about me
-
-I build **applied AI systems** — not demos, things that hold up in production. My day-to-day lives somewhere between retrieval pipelines, agent orchestration, and figuring out why an eval score dropped 4% overnight.
-
-I like systems that are *measurable*. If it can't be evaluated, I probably don't trust it yet — including my own code.
-
-```
-> whoami
-areesha — ai/ml engineer
-> status
-shipping, mostly on schedule
-> currently
-teaching agents to disagree less
-```
-
-</td>
-<td width="38%" valign="top" align="center">
-
-**quick facts**
-
-🎓 BS Computer Science, Habib University
-🧠 LLMs · RAG · Agentic workflows
-🛠️ Python-first, ships in Docker
-📍 Based in Pakistan
-💌 [areesha-amir](https://www.linkedin.com/in/areesha-amir/)
-
-</td>
-</tr>
-</table>
+I build AI products that keep working after launch day: assistants that show where their answers come from, automation that checks with a person before acting, and systems that stay affordable as they grow.
 
 <br>
 
-<div align="center">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/sections/built-dark.svg"><img alt="01 Things I've built" src="assets/sections/built-light.svg" width="100%"></picture>
 
-### 🧭 where I spend my time
+<p>
+<a href="https://areeshaamir.dev/#projects"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/helpwise-dark.svg"><img alt="Cited Support Chatbot: 40% faster resolution" src="assets/cards/helpwise-light.svg" width="49%"></picture></a>
+<a href="https://areeshaamir.dev/#projects"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/careroute-dark.svg"><img alt="Safe Triage Assistant: a third fewer front-desk calls" src="assets/cards/careroute-light.svg" width="49%"></picture></a>
+</p>
+<p>
+<a href="https://areeshaamir.dev/#projects"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/skillpath-dark.svg"><img alt="Adaptive Learning Platform: completion up from 35% to 78%" src="assets/cards/skillpath-light.svg" width="49%"></picture></a>
+<a href="https://areeshaamir.dev/#projects"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/callcadence-dark.svg"><img alt="Voice Booking Agent: 3x more meetings booked" src="assets/cards/callcadence-light.svg" width="49%"></picture></a>
+</p>
+<p>
+<a href="https://areeshaamir.dev/#projects"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/autolens-dark.svg"><img alt="Used-Car Price Estimator: within 8% of sale price" src="assets/cards/autolens-light.svg" width="49%"></picture></a>
+<a href="https://areeshaamir.dev/#projects"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/roamplan-dark.svg"><img alt="Trip Itinerary Planner: about 5 hours saved per trip" src="assets/cards/roamplan-light.svg" width="49%"></picture></a>
+</p>
 
-</div>
+<p align="center"><sub>20+ products across 6 industries. See them all at <a href="https://areeshaamir.dev/">areeshaamir.dev</a></sub></p>
 
-<table width="100%">
-<tr>
-<td width="25%" align="center">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/sections/work-dark.svg"><img alt="02 How I work" src="assets/sections/work-light.svg" width="100%"></picture>
 
-**🔗 LLM Apps**
-Prompting, tool-calling, structured output, production APIs
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/steps-dark.svg"><img alt="Listen, Design, Build, Care" src="assets/steps-light.svg" width="100%"></picture>
 
-</td>
-<td width="25%" align="center">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/sections/skills-dark.svg"><img alt="03 What I'm good at" src="assets/sections/skills-light.svg" width="100%"></picture>
 
-**📚 RAG**
-Hybrid retrieval, chunking, reranking, grounding
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/skills-dark.svg"><img alt="AI assistants · Automation · Full products · Reliability" src="assets/skills-light.svg" width="100%"></picture>
 
-</td>
-<td width="25%" align="center">
+<p align="center"><sub>Python · TypeScript · React · FastAPI · PostgreSQL · Docker</sub></p>
 
-**🤖 Agents**
-Planners, tool use, MCP-style orchestration
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/sections/journey-dark.svg"><img alt="04 My journey" src="assets/sections/journey-light.svg" width="100%"></picture>
 
-</td>
-<td width="25%" align="center">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/journey-dark.svg"><img alt="Career: AI Product Architect, AI Consultant, AI/ML Engineer at JBS and Vettio, Research Intern at AI @ Dartmouth, Frontend Engineer at Securiti; BS Computer Science at Habib University" src="assets/journey-light.svg" width="100%"></picture>
 
-**📊 Evals**
-LLM-as-judge, regression harnesses, offline metrics
+From internships to running my own practice, every role has been about the same thing: getting AI out of the demo and into people's hands. Next, I'm looking for a graduate program, research group, or product team where that matters.
 
-</td>
-</tr>
-</table>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/sections/activity-dark.svg"><img alt="05 On GitHub" src="assets/sections/activity-light.svg" width="100%"></picture>
 
-<br>
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=AAreesha&count_private=true&include_all_commits=true&show_icons=true&hide_rank=true&hide_border=true&custom_title=GitHub&bg_color=0d1117&title_color=E8E4DC&text_color=8B9098&icon_color=E8A3BC">
+  <img alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=AAreesha&count_private=true&include_all_commits=true&show_icons=true&hide_rank=true&hide_border=true&custom_title=GitHub&bg_color=ffffff&title_color=1C1E21&text_color=676C73&icon_color=B5577D" height="165">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=AAreesha&layout=compact&langs_count=6&hide_border=true&custom_title=Most%20used&bg_color=0d1117&title_color=E8E4DC&text_color=8B9098">
+  <img alt="Most used languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AAreesha&layout=compact&langs_count=6&hide_border=true&custom_title=Most%20used&bg_color=ffffff&title_color=1C1E21&text_color=676C73" height="165">
+</picture>
+</p>
 
-<div align="center">
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=AAreesha&hide_border=true&background=0d1117&stroke=2B3038&ring=E8A3BC&fire=E8A3BC&currStreakNum=E8E4DC&sideNums=E8E4DC&currStreakLabel=E8A3BC&sideLabels=8B9098&dates=8B9098">
+  <img alt="Contribution streak" src="https://streak-stats.demolab.com?user=AAreesha&hide_border=true&background=ffffff&stroke=D8D3C9&ring=B5577D&fire=B5577D&currStreakNum=1C1E21&sideNums=1C1E21&currStreakLabel=B5577D&sideLabels=676C73&dates=676C73" height="165">
+</picture>
+</p>
 
-### 🛰️ arsenal
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=AAreesha&area=true&hide_border=true&custom_title=Contribution%20activity&height=240&bg_color=0d1117&color=8B9098&title_color=E8E4DC&line=86A7C8&point=E8A3BC&area_color=86A7C8">
+  <img alt="Contribution activity" src="https://github-readme-activity-graph.vercel.app/graph?username=AAreesha&area=true&hide_border=true&custom_title=Contribution%20activity&height=240&bg_color=ffffff&color=676C73&title_color=1C1E21&line=2F4F6F&point=B5577D&area_color=2F4F6F" width="100%">
+</picture>
 
-**Languages**
-![](https://img.shields.io/badge/Python-FF5DA2?style=flat-square&logo=python&logoColor=white&labelColor=0D0D0D)
-![](https://img.shields.io/badge/C++-B437F0?style=flat-square&logo=cplusplus&logoColor=white&labelColor=0D0D0D)
-![](https://img.shields.io/badge/C-6C2BD9?style=flat-square&logo=c&logoColor=white&labelColor=0D0D0D)
-![](https://img.shields.io/badge/TypeScript-FF5DA2?style=flat-square&logo=typescript&logoColor=white&labelColor=0D0D0D)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AAreesha/AAreesha/output/snake-dark.svg">
+  <img alt="Contribution snake" src="https://raw.githubusercontent.com/AAreesha/AAreesha/output/snake-light.svg" width="100%">
+</picture>
 
-**AI / ML**
-![](https://img.shields.io/badge/PyTorch-B437F0?style=flat-square&logo=pytorch&logoColor=white&labelColor=0D0D0D)
-![](https://img.shields.io/badge/TensorFlow-6C2BD9?style=flat-square&logo=tensorflow&logoColor=white&labelColor=0D0D0D)
-![](https://img.shields.io/badge/scikit--learn-FF5DA2?style=flat-square&logo=scikitlearn&logoColor=white&labelColor=0D0D0D)
-![](https://img.shields.io/badge/spaCy-B437F0?style=flat-square&logo=spacy&logoColor=white&labelColor=0D0D0D)
-![](https://img.shields.io/badge/LangChain-6C2BD9?style=flat-square&labelColor=0D0D0D)
-![](https://img.shields.io/badge/FAISS-FF5DA2?style=flat-square&labelColor=0D0D0D)
-![](https://img.shields.io/badge/MCP-B437F0?style=flat-square&labelColor=0D0D0D)
+<p align="center"><img alt="Profile views" src="https://komarev.com/ghpvc/?username=AAreesha&label=profile%20views&color=B5577D&style=flat-square"></p>
 
-**Infra & Tools**
-![](https://img.shields.io/badge/FastAPI-6C2BD9?style=flat-square&logo=fastapi&logoColor=white&labelColor=0D0D0D)
-![](https://img.shields.io/badge/Docker-FF5DA2?style=flat-square&logo=docker&logoColor=white&labelColor=0D0D0D)
-![](https://img.shields.io/badge/PostgreSQL-B437F0?style=flat-square&logo=postgresql&logoColor=white&labelColor=0D0D0D)
-![](https://img.shields.io/badge/Git-6C2BD9?style=flat-square&logo=git&logoColor=white&labelColor=0D0D0D)
-![](https://img.shields.io/badge/Linux-FF5DA2?style=flat-square&logo=linux&logoColor=white&labelColor=0D0D0D)
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/sections/talk-dark.svg"><img alt="06 Let's talk" src="assets/sections/talk-light.svg" width="100%"></picture>
 
-</div>
+<a href="mailto:xmireesha@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cta-dark.svg"><img alt="Let's build something that lasts. Open to graduate scholarships, research, and AI product roles." src="assets/cta-light.svg" width="100%"></picture></a>
 
-<br>
-
-<div align="center">
-
-### 📊 snapshot
-
-<img src="https://github-readme-stats.vercel.app/api?username=AAreesha&show_icons=true&hide_border=true&bg_color=0D0D0D&title_color=FF5DA2&icon_color=B437F0&text_color=E8E6E9&ring_color=6C2BD9&rank_icon=percentile" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AAreesha&layout=compact&hide_border=true&bg_color=0D0D0D&title_color=FF5DA2&text_color=E8E6E9&langs_count=8" height="165"/>
-
-<br><br>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=AAreesha&theme=merko&utcOffset=5" height="150"/>
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=AAreesha&bg_color=0D0D0D&color=FF5DA2&line=B437F0&point=FFFFFF&area=true&hide_border=true&custom_title=CONTRIBUTION+ACTIVITY&height=280" width="97%"/>
-
-<br><br>
-
-<img src="https://github-profile-trophy.vercel.app/?username=AAreesha&theme=radical&no-frame=true&no-bg=true&margin-w=8&row=1&column=7"/>
-
-</div>
-
-> Dropped the streak-stats widget for good — it rendered with a white card edge that broke on GitHub's dark theme, and the activity graph + productive-time card above already tell that story better.
-
-<br>
-
-<div align="center">
-
-### 🐍 contribution trace
-
-<img src="https://raw.githubusercontent.com/AAreesha/AAreesha/gh-pages/github-contribution-grid-snake-dark.svg" width="97%"/>
-
-</div>
-
-<br>
-
-<div align="center">
-
-## 🏆 the journey
-
-</div>
-
-<table width="100%">
-<tr>
-<td width="12%" align="center" valign="top">
-
-🎓
-<br>
-<sub><b>2021–25</b></sub>
-
-</td>
-<td width="88%" valign="top">
-
-**BS Computer Science — Habib University**
-Where most of this started. Four years of turning coffee into code and coursework into a fairly stubborn habit of shipping things.
-
-</td>
-</tr>
-<tr>
-<td align="center" valign="top">
-
-🥇
-<br>
-<sub><b>ongoing</b></sub>
-
-</td>
-<td valign="top">
-
-**HU TOPS Scholar**
-Full-ride, merit-based — awarded to the top slice of the applicant pool.
-
-</td>
-</tr>
-<tr>
-<td align="center" valign="top">
-
-📜
-<br>
-<sub><b>every term</b></sub>
-
-</td>
-<td valign="top">
-
-**Dean's Honor List & President's List**
-Consistency over flash — showed up on both, term after term.
-
-</td>
-</tr>
-<tr>
-<td align="center" valign="top">
-
-🥈
-<br>
-<sub><b>2024</b></sub>
-
-</td>
-<td valign="top">
-
-**1st Runner-Up — IFTP, Texas A&M University**
-Took the work outside the classroom for the theme of economic sustainability, competed in university level only, and placed.
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-
-![](https://img.shields.io/badge/Full--Ride%20Scholar-FF5DA2?style=for-the-badge&labelColor=0D0D0D)
-![](https://img.shields.io/badge/Dean's%20%2B%20President's%20List-B437F0?style=for-the-badge&labelColor=0D0D0D)
-![](https://img.shields.io/badge/IFTP%20'24%20%E2%80%94%201st%20Runner--Up-6C2BD9?style=for-the-badge&labelColor=0D0D0D)
-
-<sub><i>apparently there was a life outside the terminal at some point</i></sub>
-
-</div>
-
-<br>
-
-<div align="center">
-
-### 🎯 let's connect
-
-<a href="https://github.com/AAreesha"><img src="https://img.shields.io/badge/GitHub-0D0D0D?style=for-the-badge&logo=github&logoColor=FF5DA2"/></a>
-<a href="https://www.linkedin.com/in/areesha-amir/"><img src="https://img.shields.io/badge/LinkedIn-0D0D0D?style=for-the-badge&logo=linkedin&logoColor=B437F0"/></a>
-<a href="https://github.com/AAreesha?tab=repositories"><img src="https://img.shields.io/badge/Projects-0D0D0D?style=for-the-badge&logo=googlechrome&logoColor=6C2BD9"/></a>
-<img src="https://komarev.com/ghpvc/?username=AAreesha&label=Profile+Views&color=B437F0&style=for-the-badge"/>
-
-<br><br>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=12&duration=2800&pause=900&color=9B9296&center=true&vCenter=true&width=600&lines=connection+established...;thanks+for+stopping+by." />
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=soft&height=120&section=footer&color=0:6C2BD9,50:B437F0,100:FF5DA2" width="100%"/>
+<p align="center">
+<a href="https://areeshaamir.dev/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/portfolio-dark.svg"><img alt="Portfolio" src="assets/buttons/portfolio-light.svg" width="150"></picture></a>
+<a href="https://areeshaamir.dev/areeshaamir-resume.pdf"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/resume-dark.svg"><img alt="Resume" src="assets/buttons/resume-light.svg" width="150"></picture></a>
+<a href="mailto:xmireesha@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/email-dark.svg"><img alt="Email" src="assets/buttons/email-light.svg" width="150"></picture></a>
+<a href="https://areeshaamir.dev/#contact"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/contact-dark.svg"><img alt="Contact" src="assets/buttons/contact-light.svg" width="150"></picture></a>
+<a href="https://www.linkedin.com/in/areesha-amir-512a51282"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/linkedin-dark.svg"><img alt="LinkedIn" src="assets/buttons/linkedin-light.svg" width="150"></picture></a>
+</p>
