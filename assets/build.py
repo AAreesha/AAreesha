@@ -49,18 +49,24 @@ STATS = [
 
 # (slug, tag, title, description, outcome, motif)
 PROJECTS = [
-    ("answers", "AI assistant", "Grounded answers engine",
-     "Helps a team find the right answer in thousands of documents, and shows exactly where each answer came from.",
-     "Answers in seconds, with sources", "chat"),
-    ("automation", "Automation", "Operations co-pilot",
-     "Takes repetitive back-office steps off people's plates and checks with a human before anything important changes.",
-     "Hours of busywork returned weekly", "flow"),
-    ("quality", "Quality", "Quality check system",
-     "Tests every update before it reaches users, so a new version never quietly gets worse.",
-     "Problems caught before launch", "shield"),
-    ("cost", "Scale", "Smart cost controller",
-     "Picks the right AI model for each job and remembers past answers, so costs stay low as usage grows.",
-     "Lower costs, 99.9% uptime", "gauge"),
+    ("helpwise", "AI assistant", "Cited Support Chatbot",
+     "Answers customer questions from help articles, and links the exact sources behind every answer.",
+     "40% faster resolution", "chat"),
+    ("careroute", "Healthcare", "Safe Triage Assistant",
+     "Handles first-line patient intake and hands off to a clinician whenever it isn't sure.",
+     "A third fewer front-desk calls", "shield"),
+    ("skillpath", "Education", "Adaptive Learning Platform",
+     "Reshapes every lesson and quiz around what each learner still needs to practise.",
+     "Completion up from 35% to 78%", "grid"),
+    ("callcadence", "Voice agent", "Voice Booking Agent",
+     "Calls prospects, holds a natural conversation, and books the meeting straight into a calendar.",
+     "3x more meetings booked", "wave"),
+    ("autolens", "Computer vision", "Used-Car Price Estimator",
+     "Prices a used car from its listing photos, even from a single exterior shot.",
+     "Within 8% of the final sale price", "gauge"),
+    ("roamplan", "Travel", "Trip Itinerary Planner",
+     "Turns travel dates and interests into day-by-day plans that re-plan as you move a pin.",
+     "About 5 hours saved per trip", "pin"),
 ]
 
 STEPS = [
@@ -79,10 +85,10 @@ SKILLS = [
 
 JOURNEY = [
     ("2021", "Full scholarship to Habib University"),
-    ("Each term", "Dean's and President's Lists"),
     ("2024", "1st runner-up, IFTP at Texas A&M"),
+    ("2025", "Research intern, AI @ Dartmouth"),
     ("2025", "BS Computer Science, 3.8 GPA"),
-    ("Now", "20+ products across 6 industries"),
+    ("Now", "AI Product Architect, 20+ products"),
 ]
 
 SECTIONS = [
@@ -98,7 +104,7 @@ BUTTONS = [
     ("portfolio", "Portfolio"),
     ("resume", "Resume"),
     ("email", "Email"),
-    ("call", "Book a call"),
+    ("contact", "Contact"),
     ("linkedin", "LinkedIn"),
 ]
 
@@ -177,6 +183,21 @@ def icon(kind, x, y, c, s=1.0):
             col = accent if i == 3 else fg
             g += (f'<rect x="{gx}" y="{gy}" width="16" height="16" rx="4" stroke="{col}" stroke-width="1.6" '
                   f'class="pulse" style="animation-delay:{i*.4}s;animation-duration:3.2s"/>')
+    elif kind == "wave":
+        for i, (lo, hi) in enumerate([(8, 18), (12, 30), (6, 22), (14, 34), (8, 20), (10, 26)]):
+            bx = 5 + i * 7.5
+            col = rose if i in (1, 3) else fg
+            g += (f'<line x1="{bx}" x2="{bx}" y1="{24-lo/2}" y2="{24+lo/2}" stroke="{col}" stroke-width="2.4">'
+                  f'<animate attributeName="y1" values="{24-lo/2};{24-hi/2};{24-lo/2}" dur="{1.1+i*.17:.2f}s" repeatCount="indefinite"/>'
+                  f'<animate attributeName="y2" values="{24+lo/2};{24+hi/2};{24+lo/2}" dur="{1.1+i*.17:.2f}s" repeatCount="indefinite"/></line>')
+    elif kind == "pin":
+        g += (f'<ellipse cx="24" cy="41" rx="12" ry="3.5" stroke="{rule}" stroke-width="1.4"/>'
+              f'<ellipse cx="24" cy="41" rx="4" ry="1.2" stroke="{rose}" stroke-width="1.4">'
+              '<animate attributeName="rx" values="4;14" dur="2.2s" repeatCount="indefinite"/>'
+              '<animate attributeName="ry" values="1.2;4.5" dur="2.2s" repeatCount="indefinite"/>'
+              '<animate attributeName="opacity" values="1;0" dur="2.2s" repeatCount="indefinite"/></ellipse>'
+              f'<path d="M24 40 C24 40 12 27 12 18 A12 12 0 0 1 36 18 C36 27 24 40 24 40 Z" stroke="{fg}" stroke-width="1.6"/>'
+              f'<circle cx="24" cy="18" r="4" stroke="{accent}" stroke-width="1.6"/>')
     return g + "</g>"
 
 
@@ -361,7 +382,7 @@ def cta(c):
             f'<text x="{w/2:.0f}" y="118" text-anchor="middle" class="sans sub muted up" style="animation-delay:.25s">'
             'Open to graduate scholarships, research, and AI product roles.</text>'
             f'<g class="up" style="animation-delay:.5s"><circle cx="{w/2-92:.0f}" cy="148" r="4.5" class="rose pulse"/>'
-            f'<text x="{w/2-80:.0f}" y="152.5" class="mono muted" style="font-size:12.5px">replies within two days</text></g>')
+            f'<text x="{w/2-80:.0f}" y="152.5" class="mono muted" style="font-size:12.5px">xmireesha@gmail.com</text></g>')
     return svg(w, h, "Let's build something that lasts. Open to graduate scholarships, research, and AI product roles.", css, body)
 
 

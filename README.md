@@ -2,10 +2,10 @@
 
 <p align="center">
 <a href="https://areeshaamir.dev/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/portfolio-dark.svg"><img alt="Portfolio" src="assets/buttons/portfolio-light.svg" width="150"></picture></a>
-<a href="RESUME_URL"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/resume-dark.svg"><img alt="Resume" src="assets/buttons/resume-light.svg" width="150"></picture></a>
-<a href="mailto:EMAIL_ADDRESS"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/email-dark.svg"><img alt="Email" src="assets/buttons/email-light.svg" width="150"></picture></a>
-<a href="CALENDAR_URL"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/call-dark.svg"><img alt="Book a call" src="assets/buttons/call-light.svg" width="150"></picture></a>
-<a href="https://www.linkedin.com/in/areesha-amir/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/linkedin-dark.svg"><img alt="LinkedIn" src="assets/buttons/linkedin-light.svg" width="150"></picture></a>
+<a href="https://areeshaamir.dev/areeshaamir-resume.pdf"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/resume-dark.svg"><img alt="Resume" src="assets/buttons/resume-light.svg" width="150"></picture></a>
+<a href="mailto:xmireesha@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/email-dark.svg"><img alt="Email" src="assets/buttons/email-light.svg" width="150"></picture></a>
+<a href="https://areeshaamir.dev/#contact"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/contact-dark.svg"><img alt="Contact" src="assets/buttons/contact-light.svg" width="150"></picture></a>
+<a href="https://www.linkedin.com/in/areesha-amir-512a51282"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/linkedin-dark.svg"><img alt="LinkedIn" src="assets/buttons/linkedin-light.svg" width="150"></picture></a>
 </p>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg"><img alt="20+ products shipped · 6 industries · 99.9% uptime · 3.8 GPA · Full scholarship" src="assets/stats-light.svg" width="100%"></picture>
@@ -17,15 +17,19 @@ I build AI products that keep working after launch day: assistants that show whe
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/sections/built-dark.svg"><img alt="01 Things I've built" src="assets/sections/built-light.svg" width="100%"></picture>
 
 <p>
-<a href="LINK"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/answers-dark.svg"><img alt="Grounded answers engine" src="assets/cards/answers-light.svg" width="49%"></picture></a>
-<a href="LINK"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/automation-dark.svg"><img alt="Operations co-pilot" src="assets/cards/automation-light.svg" width="49%"></picture></a>
+<a href="https://areeshaamir.dev/#projects"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/helpwise-dark.svg"><img alt="Cited Support Chatbot: 40% faster resolution" src="assets/cards/helpwise-light.svg" width="49%"></picture></a>
+<a href="https://areeshaamir.dev/#projects"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/careroute-dark.svg"><img alt="Safe Triage Assistant: a third fewer front-desk calls" src="assets/cards/careroute-light.svg" width="49%"></picture></a>
 </p>
 <p>
-<a href="LINK"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/quality-dark.svg"><img alt="Quality check system" src="assets/cards/quality-light.svg" width="49%"></picture></a>
-<a href="LINK"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/cost-dark.svg"><img alt="Smart cost controller" src="assets/cards/cost-light.svg" width="49%"></picture></a>
+<a href="https://areeshaamir.dev/#projects"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/skillpath-dark.svg"><img alt="Adaptive Learning Platform: completion up from 35% to 78%" src="assets/cards/skillpath-light.svg" width="49%"></picture></a>
+<a href="https://areeshaamir.dev/#projects"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/callcadence-dark.svg"><img alt="Voice Booking Agent: 3x more meetings booked" src="assets/cards/callcadence-light.svg" width="49%"></picture></a>
+</p>
+<p>
+<a href="https://areeshaamir.dev/#projects"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/autolens-dark.svg"><img alt="Used-Car Price Estimator: within 8% of sale price" src="assets/cards/autolens-light.svg" width="49%"></picture></a>
+<a href="https://areeshaamir.dev/#projects"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/roamplan-dark.svg"><img alt="Trip Itinerary Planner: about 5 hours saved per trip" src="assets/cards/roamplan-light.svg" width="49%"></picture></a>
 </p>
 
-<p align="center"><sub>16 more across 6 industries at <a href="https://areeshaamir.dev/">areeshaamir.dev</a></sub></p>
+<p align="center"><sub>20+ products across 6 industries. See them all at <a href="https://areeshaamir.dev/">areeshaamir.dev</a></sub></p>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/sections/work-dark.svg"><img alt="02 How I work" src="assets/sections/work-light.svg" width="100%"></picture>
 
@@ -41,7 +45,7 @@ I build AI products that keep working after launch day: assistants that show whe
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/journey-dark.svg"><img alt="From a full scholarship at Habib University to 20+ products shipped" src="assets/journey-light.svg" width="100%"></picture>
 
-A full scholarship gave me four years to learn the fundamentals properly, and I spent them building for real people. Next, I want to work somewhere AI has to hold up in the real world, whether that's a research group, a graduate program, or a product team.
+A full scholarship gave me four years to learn the fundamentals properly, and I spent them building for real people: AI/ML engineering at JBS and Vettio, frontend at Securiti, research at AI @ Dartmouth, and teaching assistant work at Habib. Today I help teams turn stalled AI demos into products that hold up with real users and real costs. Next, I'm looking for a graduate program, research group, or product team where that matters.
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/sections/activity-dark.svg"><img alt="05 On GitHub" src="assets/sections/activity-light.svg" width="100%"></picture>
 
@@ -77,12 +81,12 @@ A full scholarship gave me four years to learn the fundamentals properly, and I 
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/sections/talk-dark.svg"><img alt="06 Let's talk" src="assets/sections/talk-light.svg" width="100%"></picture>
 
-<a href="mailto:EMAIL_ADDRESS"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cta-dark.svg"><img alt="Let's build something that lasts. Open to graduate scholarships, research, and AI product roles." src="assets/cta-light.svg" width="100%"></picture></a>
+<a href="mailto:xmireesha@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cta-dark.svg"><img alt="Let's build something that lasts. Open to graduate scholarships, research, and AI product roles." src="assets/cta-light.svg" width="100%"></picture></a>
 
 <p align="center">
 <a href="https://areeshaamir.dev/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/portfolio-dark.svg"><img alt="Portfolio" src="assets/buttons/portfolio-light.svg" width="150"></picture></a>
-<a href="RESUME_URL"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/resume-dark.svg"><img alt="Resume" src="assets/buttons/resume-light.svg" width="150"></picture></a>
-<a href="mailto:EMAIL_ADDRESS"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/email-dark.svg"><img alt="Email" src="assets/buttons/email-light.svg" width="150"></picture></a>
-<a href="CALENDAR_URL"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/call-dark.svg"><img alt="Book a call" src="assets/buttons/call-light.svg" width="150"></picture></a>
-<a href="https://www.linkedin.com/in/areesha-amir/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/linkedin-dark.svg"><img alt="LinkedIn" src="assets/buttons/linkedin-light.svg" width="150"></picture></a>
+<a href="https://areeshaamir.dev/areeshaamir-resume.pdf"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/resume-dark.svg"><img alt="Resume" src="assets/buttons/resume-light.svg" width="150"></picture></a>
+<a href="mailto:xmireesha@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/email-dark.svg"><img alt="Email" src="assets/buttons/email-light.svg" width="150"></picture></a>
+<a href="https://areeshaamir.dev/#contact"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/contact-dark.svg"><img alt="Contact" src="assets/buttons/contact-light.svg" width="150"></picture></a>
+<a href="https://www.linkedin.com/in/areesha-amir-512a51282"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/linkedin-dark.svg"><img alt="LinkedIn" src="assets/buttons/linkedin-light.svg" width="150"></picture></a>
 </p>
