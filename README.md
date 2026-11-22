@@ -8,7 +8,7 @@
 <a href="https://www.linkedin.com/in/areesha-amir-512a51282"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/linkedin-dark.svg"><img alt="LinkedIn" src="assets/buttons/linkedin-light.svg" width="150"></picture></a>
 </p>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg"><img alt="20+ products shipped · 6 industries · 99.9% uptime · 3.8 GPA · Full scholarship" src="assets/stats-light.svg" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg"><img alt="20+ products shipped · 6 industries" src="assets/stats-light.svg" width="100%"></picture>
 
 I build AI products that keep working after launch day: assistants that show where their answers come from, automation that checks with a person before acting, and systems that stay affordable as they grow.
 
